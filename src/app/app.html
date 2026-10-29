@@ -1,0 +1,688 @@
+
+<div class="app-shell">
+  <aside class="sidebar">
+    <a class="brand" href="/" aria-label="ExamFlow - Acasă">
+      <span class="brand-icon">E</span>
+      <span class="brand-name">ExamFlow</span>
+    </a>
+
+    <div class="sidebar-label">MENIU PRINCIPAL</div>
+
+    <nav class="navigation" aria-label="Navigare principală">
+<a
+  class="nav-item"
+  href="/"
+  [class.active]="activeSection === 'home'"
+  [attr.aria-current]="activeSection === 'home' ? 'page' : null"
+  (click)="activeSection = 'home'"
+>
+  <span class="nav-icon">⌂</span>
+  <span>Acasă</span>
+</a>
+<a
+  class="nav-item"
+  href="#exams"
+  [class.active]="activeSection === 'exams'"
+  (click)="activeSection = 'exams'"
+>
+  <span class="nav-icon">▤</span>
+  <span>Examenele mele</span>
+</a>
+<a
+  class="nav-item"
+  href="#mistakes"
+  [class.active]="activeSection === 'mistakes'"
+  (click)="activeSection = 'mistakes'"
+>
+  <span class="nav-icon">↻</span>
+  <span>Repetă greșelile</span>
+</a>
+<a
+  class="nav-item"
+  href="#progress"
+  [class.active]="activeSection === 'progress'"
+  (click)="activeSection = 'progress'"
+>
+  <span class="nav-icon">▥</span>
+  <span>Progresul meu</span>
+</a>
+    </nav>
+
+    <div class="sidebar-bottom">
+      <div class="sidebar-tip">
+        <span class="tip-icon">✦</span>
+        <strong>Pas cu pas.</strong>
+        <p>Fiecare întrebare rezolvată te apropie de obiectiv.</p>
+      </div>
+      <div class="sidebar-footer">ExamFlow · Versiunea 0.1</div>
+    </div>
+  </aside>
+
+  <main class="main-content">
+
+        <section class="welcome">
+      <div>
+        <p class="eyebrow">SPAȚIUL TĂU DE ÎNVĂȚARE</p>
+        <h1>Învață eficient. <span>Promovează cu încredere.</span></h1>
+        <p class="welcome-description">
+          Exersează, înțelege greșelile și urmărește-ți progresul.
+        </p>
+      </div>
+      <div class="welcome-decoration" aria-hidden="true">
+        <span class="decoration-circle circle-one"></span>
+        <span class="decoration-circle circle-two"></span>
+        <span class="decoration-symbol">✓</span>
+      </div>
+    </section>
+
+    <section class="learning-section">
+  <div class="section-heading">
+    <div>
+      <p class="eyebrow">COLECȚIA TA</p>
+      <h2>Biblioteca de examene</h2>
+      <p>Examenele importate și salvate în această aplicație.</p>
+    </div>
+  </div>
+
+  @if (importedPackages.length > 0) {
+    <div class="categories-grid">
+      @for (item of importedPackages; track item.exam.id) {
+        <article
+  class="category-card"
+  [class.selected]="examPackage?.exam.id === item.exam.id"
+>
+          <h3>{{ item.exam.title }}</h3>
+          <p>{{ item.exam.description }}</p>
+          <p>
+            {{ item.exam.categories.length }} categorii ·
+            {{ item.questions.length }} întrebări
+          </p>
+
+
+
+
+          <button
+  class="primary-button"
+  type="button"
+  [disabled]="examPackage?.exam.id === item.exam.id"
+  (click)="selectImportedPackage(item.exam.id)"
+>
+  {{ examPackage?.exam.id === item.exam.id ? 'Examen selectat' : 'Deschide examenul' }}
+</button>
+
+
+
+        </article>
+      }
+    </div>
+  } @else {
+    <p class="empty-state">
+      Nu ai importat încă niciun examen.
+    </p>
+  }
+</section>
+
+<section class="learning-section">
+  <div class="section-heading">
+    <div>
+      <p class="eyebrow">PERSONALIZEAZĂ ÎNVĂȚAREA</p>
+      <h2>Importă un examen</h2>
+      <p>Selectează un pachet JSON validat pentru ExamFlow.</p>
+    </div>
+  </div>
+
+  <label for="exam-package-file">Fișier JSON</label>
+
+<input
+  #packageFileInput
+  id="exam-package-file"
+  type="file"
+  accept=".json,application/json"
+  (change)="onPackageSelected($event)"
+  [disabled]="importingPackage"
+/>
+
+  @if (importingPackage) {
+    <p role="status">Se validează și se încarcă pachetul...</p>
+  }
+
+  @if (importMessage) {
+    <p [class.import-error]="importError" role="status">
+      {{ importMessage }}
+    </p>
+  }
+</section>
+
+    @if (loading) {
+  <div class="info-card">
+    <p>Se încarcă pachetul de examen...</p>
+  </div>
+}
+
+@if (errorMessage) {
+  <div class="info-card" role="alert">
+    <h2>Nu s-a putut încărca examenul</h2>
+    <p>{{ errorMessage }}</p>
+  </div>
+}
+    <header class="topbar">
+      <div class="breadcrumb">Spațiul meu / <strong>Acasă</strong></div>
+      <span class="status-pill">
+        <span class="status-dot"></span>
+        Progresul tău este salvat local
+      </span>
+    </header>
+
+
+    <section class="section-heading" id="exams">
+      <div>
+        <h2>Examenele mele</h2>
+        <p>Continuă pregătirea de unde ai rămas.</p>
+      </div>
+<button
+  class="secondary-button"
+  type="button"
+  (click)="packageFileInput.click()"
+>
+  + Adaugă examen
+</button>
+    </section>
+
+    <section class="exam-grid">
+      
+<article class="exam-card">
+  <div class="exam-card-top">
+    <div class="exam-icon">✦</div>
+    <span class="exam-badge">EXAMEN ACTIV</span>
+  </div>
+
+  @if (examPackage; as package) {
+    <p class="exam-category">PACHET DE EXAMEN</p>
+    <h3>{{ package.exam.title }}</h3>
+    <p class="exam-description">{{ package.exam.description }}</p>
+
+    <div class="exam-stats">
+      <div>
+        <strong>{{ package.exam.categories.length }}</strong>
+        <span>Categorii</span>
+      </div>
+      <div>
+        <strong>{{ package.questions.length }}</strong>
+        <span>Întrebări</span>
+      </div>
+      <div>
+        <strong>{{ exam.accuracy }}%</strong>
+        <span>Acuratețe</span>
+      </div>
+    </div>
+
+    <div class="progress-heading">
+      <span>Progresul tău</span>
+      <strong>{{ progress | number: '1.0-0' }}%</strong>
+    </div>
+
+    <div
+      class="progress-track"
+      role="progressbar"
+      aria-label="Progresul tău"
+      [attr.aria-valuenow]="progress"
+      aria-valuemin="0"
+      aria-valuemax="100"
+    >
+      <div class="progress-fill" [style.width.%]="progress"></div>
+    </div>
+
+<button
+  class="primary-button"
+  type="button"
+  (click)="selectCategory(examPackage?.exam?.categories?.[0]?.id ?? '')"
+>
+  Continuă învățarea <span aria-hidden="true">→</span>
+</button>
+  } @else {
+    <p class="exam-description">
+      @if (loading) {
+        Se încarcă datele examenului...
+      } @else {
+        Examenul nu este disponibil momentan.
+      }
+    </p>
+  }
+</article>
+
+
+
+      
+
+      <article class="action-card">
+        <div class="action-icon simulation-icon">◷</div>
+        <div class="action-content">
+          <p class="action-label">TESTEAZĂ-TE</p>
+          <h3>Simulare de examen</h3>
+          <p>Testează-ți cunoștințele într-un chestionar cu întrebări aleatorii.</p>
+        </div>
+        <button class="action-link" type="button" (click)="startExamSimulation()">
+          Începe simularea <span aria-hidden="true">→</span>
+        </button>
+      </article>
+
+      <article class="action-card" id="mistakes">
+        <div class="action-icon mistakes-icon">↻</div>
+        <div class="action-content">
+          <p class="action-label">ÎNVĂȚARE INTELIGENTĂ</p>
+          <h3>Repetă greșelile</h3>
+          <p>Revino la întrebările dificile și fixează informațiile importante.</p>
+        </div>
+<button
+  class="action-link"
+  type="button"
+  (click)="showIncorrectQuestions = true"
+>
+  Repetă întrebările <span aria-hidden="true">→</span>
+</button>
+      </article>
+    </section>
+
+
+
+@if (examPackage; as package) {
+  <section class="categories-section">
+    <div class="section-heading">
+      <div>
+        <h2>Categorii de învățare</h2>
+        <p>Alege capitolul pe care vrei să îl studiezi.</p>
+      </div>
+    </div>
+
+    <div class="categories-grid">
+
+@for (category of package.exam.categories; track category.id) {
+  <button
+    class="category-card"
+    type="button"
+    (click)="selectCategory(category.id)"
+    [class.selected]="selectedCategoryId === category.id"
+    [attr.aria-pressed]="selectedCategoryId === category.id"
+  >
+    <div class="action-icon simulation-icon">▤</div>
+    <h3>{{ category.name }}</h3>
+    <p>
+      {{ category.description || 'Exersează întrebările din această categorie.' }}
+    </p>
+    <span>
+      {{ package.questions.filter(q => q.categoryId === category.id).length }}
+      întrebări
+    </span>
+  </button>
+}
+
+    </div>
+  </section>
+}
+
+
+@if (examPackage; as package) {
+  <section class="learning-section">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">CONSOLIDEAZĂ-ȚI CUNOȘTINȚELE</p>
+        <h2>Repetă greșelile</h2>
+        <p>
+          Reia întrebările la care ai răspuns greșit.
+        </p>
+      </div>
+
+      <button
+        class="primary-button"
+        type="button"
+        (click)="showIncorrectQuestions = !showIncorrectQuestions"
+      >
+        {{ showIncorrectQuestions ? 'Ascunde întrebările' : 'Vezi întrebările' }}
+        ({{ incorrectQuestions.length }})
+      </button>
+    </div>
+
+    @if (showIncorrectQuestions) {
+      @if (incorrectQuestions.length > 0) {
+        @for (question of incorrectQuestions; track question.id) {
+          <article class="question-card">
+            <h3>{{ question.question }}</h3>
+
+            <p>
+              Ai răspuns greșit la această întrebare.
+            </p>
+
+<button
+  class="primary-button"
+  type="button"
+  (click)="retryIncorrectQuestion(question.id)"
+>
+  Reia întrebarea
+</button>
+          </article>
+        }
+      } @else {
+        <p class="empty-state">
+          Nu ai întrebări greșite salvate. Continuă să înveți!
+        </p>
+      }
+    }
+  </section>
+}
+
+@if (examSession; as session) {
+  <section class="learning-section">
+    @if (!session.completed && session.questions.length > 0) {
+      @if (session.questions[session.currentQuestionIndex]; as question) {
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">SIMULARE EXAMEN</p>
+            <p class="timer-display" role="timer" aria-live="off">
+  Timp rămas: {{ remainingTimeLabel }}
+</p>
+            <h2>Întrebarea {{ session.currentQuestionIndex + 1 }} din {{ session.questions.length }}</h2>
+          </div>
+        </div>
+
+        <article class="question-card">
+          <h3>{{ question.question }}</h3>
+
+          <div class="answer-list" [class.multiple-choice]="question.type === 'multiple-choice'">
+            @for (answer of question.answers; track answer.id) {
+              <button
+                class="answer-option"
+                type="button"
+                [class.selected]="(session.answers[question.id] ?? []).includes(answer.id)"
+                [attr.aria-pressed]="(session.answers[question.id] ?? []).includes(answer.id)"
+                (click)="selectSimulationAnswer(question.id, answer.id, question.type)"
+              >
+                <span>{{ answer.text }}</span>
+              </button>
+            }
+          </div>
+        </article>
+
+        <div class="section-heading">
+          <button
+            class="secondary-button"
+            type="button"
+            [disabled]="session.currentQuestionIndex === 0"
+            (click)="previousSimulationQuestion()"
+          >
+            Înapoi
+          </button>
+
+          @if (session.currentQuestionIndex < session.questions.length - 1) {
+            <button
+              class="primary-button"
+              type="button"
+              (click)="nextSimulationQuestion()"
+            >
+              Următoarea întrebare
+            </button>
+          } @else {
+            <button
+              class="primary-button"
+              type="button"
+              (click)="finishExamSimulation()"
+            >
+              Finalizează examenul
+            </button>
+          }
+        </div>
+      }
+    } @else if (session.completed) {
+  <div class="simulation-result">
+    <p class="eyebrow">REZULTATUL SIMULĂRII</p>
+
+    <h2>
+      {{ simulationPassed ? 'Felicitări! Ai promovat.' : 'Mai ai de exersat.' }}
+    </h2>
+
+    <p class="simulation-score">{{ simulationScore }}%</p>
+
+    <p>
+      Răspunsuri corecte:
+      {{ simulationCorrectAnswers }} din {{ session.questions.length }}
+    </p>
+
+    <p>
+      Prag de promovare:
+      {{ examPackage?.exam?.settings?.passPercentage }}%
+    </p>
+
+    <button
+      class="primary-button"
+      type="button"
+      (click)="startExamSimulation()"
+    >
+      Reia simularea
+    </button>
+  </div>
+}
+  </section>
+}
+
+<section class="learning-section">
+  <div class="section-heading">
+    <div>
+      <p class="eyebrow">EVOLUȚIA TA</p>
+      <h2>Istoric simulări</h2>
+      <p>Rezultatele simulărilor finalizate.</p>
+    </div>
+  </div>
+
+  @if (examHistory.length > 0) {
+    <div class="history-list">
+      @for (attempt of examHistory; track attempt.id) {
+        <article class="question-card">
+          <div class="section-heading">
+            <div>
+              <h3>{{ attempt.scorePercentage }}%</h3>
+              <p>
+                {{ attempt.correctAnswers }} din
+                {{ attempt.totalQuestions }} răspunsuri corecte
+              </p>
+            </div>
+
+            <span
+              class="history-status"
+              [class.history-passed]="attempt.passed"
+              [class.history-failed]="!attempt.passed"
+            >
+              {{ attempt.passed ? 'Promovat' : 'Nepromovat' }}
+            </span>
+          </div>
+
+          <p>
+            {{ attempt.completedAt | date:'dd.MM.yyyy, HH:mm' }}
+          </p>
+        </article>
+      }
+    </div>
+  } @else {
+    <p class="empty-state">
+      Nu ai finalizat încă nicio simulare.
+    </p>
+  }
+</section>
+
+
+@if (selectedCategory; as category) {
+  <section class="learning-section">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">MOD DE ÎNVĂȚARE</p>
+        <h2>{{ category.name }}</h2>
+        <p>{{ category.description || 'Studiază întrebările acestei categorii.' }}</p>
+      </div>
+
+      <button
+        class="secondary-button"
+        type="button"
+        (click)="selectCategory('')"
+      >
+        Închide
+      </button>
+    </div>
+
+    @for (question of selectedQuestions; track question.id; let i = $index) {
+      <article class="question-card">
+        <p class="question-number">ÎNTREBAREA {{ i + 1 }}</p>
+        <h3>{{ question.question }}</h3>
+
+
+<div
+  class="answer-list"
+  [class.multiple-choice]="question.type === 'multiple-choice'"
+>
+  @for (answer of question.answers; track answer.id) {
+    <button
+      type="button"
+      class="answer-option"
+      [class.selected]="(selectedAnswers[question.id] ?? []).includes(answer.id)"
+      [class.correct]="answeredQuestions[question.id] && question.correctAnswerIds.includes(answer.id)"
+      [class.incorrect]="answeredQuestions[question.id] && (selectedAnswers[question.id] ?? []).includes(answer.id) && !question.correctAnswerIds.includes(answer.id)"
+      [disabled]="answeredQuestions[question.id]"
+      [attr.aria-pressed]="(selectedAnswers[question.id] ?? []).includes(answer.id)"
+      (click)="selectAnswer(question.id, answer.id, question.type)"
+    >
+      <span>{{ answer.text }}</span>
+      @if (answeredQuestions[question.id] && question.correctAnswerIds.includes(answer.id)) {
+        <span aria-hidden="true">✓</span>
+      }
+    </button>
+  }
+</div>
+
+@if (question.type === 'multiple-choice' && !answeredQuestions[question.id]) {
+  <button
+    type="button"
+    class="primary-button verify-button"
+    [disabled]="(selectedAnswers[question.id] ?? []).length === 0"
+    (click)="checkAnswer(question.id)"
+  >
+    Verifică răspunsul
+  </button>
+}
+
+@if (answeredQuestions[question.id]) {
+  <div
+    class="answer-feedback"
+    [class.feedback-correct]="correctQuestions[question.id]"
+    [class.feedback-incorrect]="!correctQuestions[question.id]"
+    role="status"
+  >
+    <strong>
+      {{ correctQuestions[question.id] ? 'Răspuns corect!' : 'Răspuns greșit.' }}
+    </strong>
+  </div>
+
+  <div class="question-explanation">
+    <strong>Explicație</strong>
+    <p>{{ question.explanation }}</p>
+  </div>
+}
+
+      </article>
+    } @empty {
+      <p>Nu există întrebări în această categorie.</p>
+    }
+  </section>
+}
+
+
+
+    <section class="bottom-grid" id="progress">
+      <article class="info-card">
+        <div class="section-heading compact-heading">
+          <div>
+            <h2>Obiectivul tău</h2>
+            <p>Consecvența contează mai mult decât graba.</p>
+          </div>
+          <span class="target-icon">◎</span>
+        </div>
+        <div class="goal-content">
+          <div class="goal-number">01</div>
+          <div>
+            <strong>Începe cu un capitol</strong>
+            <p>Parcurge întrebările, citește explicațiile și repetă ce nu stăpânești.</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- <article class="info-card">
+        <div class="section-heading compact-heading">
+          <div>
+            <h2>Progresul meu</h2>
+            <p>Statisticile reale vor apărea după implementarea salvării.</p>
+          </div>
+          <span class="target-icon">↗</span>
+        </div>
+        <div class="empty-progress">
+          <span class="empty-progress-icon">▥</span>
+          <p>Nu există încă rezultate înregistrate.</p>
+        </div>
+      </article> -->
+
+<article class="info-card">
+  <div class="section-heading">
+    <div>
+      <p class="eyebrow">STATISTICILE TALE</p>
+      <h2>Progresul meu</h2>
+    </div>
+    <span class="section-icon">▥</span>
+  </div>
+
+  @if (examPackage) {
+    <div class="progress-stats">
+      <div class="stat-row">
+        <span>Întrebări rezolvate</span>
+        <strong>
+          {{ completedQuestions }} / {{ examPackage.questions.length }}
+        </strong>
+      </div>
+
+      <div class="stat-row">
+        <span>Răspunsuri corecte</span>
+        <strong>{{ exam.accuracy }}%</strong>
+      </div>
+
+      <div class="stat-row">
+        <span>Simulări finalizate</span>
+        <strong>{{ examHistory.length }}</strong>
+      </div>
+
+      <div class="stat-row">
+        <span>Cel mai bun scor</span>
+        <strong>{{ bestSimulationScore }}%</strong>
+      </div>
+
+      <div class="progress-track">
+        <div
+          class="progress-fill"
+          [style.width.%]="progress"
+        ></div>
+      </div>
+
+      <p class="progress-caption">
+        Ai parcurs {{ progress }}% din întrebările acestui examen.
+      </p>
+    </div>
+  } @else {
+    <div class="empty-progress">
+      <p>Selectează un examen pentru a vedea statisticile.</p>
+    </div>
+  }
+</article>
+
+    </section>
+
+    <footer class="page-footer">
+      <span>ExamFlow</span>
+      <span>Pregătire simplă. Progres măsurabil.</span>
+    </footer>
+  </main>
+</div>
+
+<router-outlet />

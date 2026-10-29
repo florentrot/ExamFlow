@@ -1,0 +1,96 @@
+
+{
+  "schemaVersion": 1,
+  "exam": {
+    "id": "instructor-fitness",
+    "title": "Instructor Fitness",
+    "description": "Pachet demonstrativ pentru pregătirea examenului de instructor fitness.",
+    "categories": [
+      {
+        "id": "anatomie",
+        "name": "Anatomie",
+        "description": "Structura corpului uman."
+      },
+      {
+        "id": "fiziologie",
+        "name": "Fiziologie",
+        "description": "Funcționarea organismului."
+      }
+    ],
+    "settings": {
+      "questionsPerSimulation": 2,
+      "timeLimitMinutes": 10,
+      "passPercentage": 70,
+      "randomizeQuestions": true,
+      "randomizeAnswers": true
+    }
+  },
+  "questions": [
+    {
+      "id": "anat-001",
+      "categoryId": "anatomie",
+      "type": "single-choice",
+      "question": "Care este principalul rol al mușchilor scheletici?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Producerea mișcării voluntare"
+        },
+        {
+          "id": "b",
+          "text": "Producerea bilei"
+        },
+        {
+          "id": "c",
+          "text": "Filtrarea sângelui"
+        },
+        {
+          "id": "d",
+          "text": "Producerea insulinei"
+        }
+      ],
+      "correctAnswerIds": ["a"],
+      "explanation": "Mușchii scheletici generează forță și permit mișcarea voluntară a corpului.",
+      "image": null,
+      "difficulty": "easy",
+      "source": {
+        "document": "demo",
+        "page": null,
+        "chapter": "Anatomie"
+      }
+    },
+    {
+      "id": "fizio-001",
+      "categoryId": "fiziologie",
+      "type": "single-choice",
+      "question": "Ce rol are sistemul cardiovascular?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Transportă sângele și substanțele prin organism"
+        },
+        {
+          "id": "b",
+          "text": "Produce exclusiv celulele osoase"
+        },
+        {
+          "id": "c",
+          "text": "Controlează direct digestia alimentelor în stomac"
+        },
+        {
+          "id": "d",
+          "text": "Înlocuiește funcția sistemului respirator"
+        }
+      ],
+      "correctAnswerIds": ["a"],
+      "explanation": "Sistemul cardiovascular transportă oxigenul, nutrienții, hormonii și produșii reziduali prin sânge.",
+      "image": null,
+      "difficulty": "easy",
+      "source": {
+        "document": "demo",
+        "page": null,
+        "chapter": "Fiziologie"
+      }
+    }
+  ]
+}
