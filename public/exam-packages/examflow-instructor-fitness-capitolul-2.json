@@ -1,0 +1,1809 @@
+{
+  "schemaVersion": 1,
+  "exam": {
+    "id": "instructor-fitness-capitolul-2",
+    "title": "Instructor Fitness – Fitness & Culturism",
+    "description": "50 de întrebări bazate pe Capitolul 2, „Fitness & Culturism”, din manualul Fitness Education School. Paginile sursă sunt numerele tipărite în manual.",
+    "categories": [
+      {
+        "id": "antrenor-personal",
+        "name": "Antrenorul personal",
+        "description": "Rol, responsabilități, profesionalism și individualizarea planului."
+      },
+      {
+        "id": "metodologie",
+        "name": "Metodologia antrenamentului",
+        "description": "Exerciții de bază și izolare, intensitate și variație."
+      },
+      {
+        "id": "partener",
+        "name": "Partenerul de antrenament",
+        "description": "Motivație, feedback, încredere și sprijin reciproc."
+      },
+      {
+        "id": "programe",
+        "name": "Modele de programe",
+        "description": "Exemple de organizare a antrenamentelor pentru începători."
+      }
+    ],
+    "settings": {
+      "questionsPerSimulation": 20,
+      "timeLimitMinutes": 30,
+      "passPercentage": 70,
+      "randomizeQuestions": true,
+      "randomizeAnswers": true
+    }
+  },
+  "questions": [
+    {
+      "id": "fit2-001",
+      "categoryId": "antrenor-personal",
+      "type": "single-choice",
+      "question": "Care este rolul principal al antrenorului personal, conform capitolului?",
+      "answers": [
+        {
+          "id": "fit2-001-a1",
+          "text": "Să prescrie tratamente medicale"
+        },
+        {
+          "id": "fit2-001-a2",
+          "text": "Să consilieze practicantul în probleme de antrenament"
+        },
+        {
+          "id": "fit2-001-a3",
+          "text": "Să înlocuiască medicul specialist"
+        },
+        {
+          "id": "fit2-001-a4",
+          "text": "Să stabilească același program pentru toți"
+        }
+      ],
+      "correctAnswerIds": [
+        "fit2-001-a2"
+      ],
+      "explanation": "Antrenorul personal este prezentat ca un consilier personal în probleme de antrenament.",
+      "image": null,
+      "difficulty": "easy",
+      "source": {
+        "document": "Manual Curs Instructor Fitness – Personal Trainer – Fitness Education School",
+        "page": 31,
+        "chapter": "Capitolul 2 – Fitness & Culturism"
+      }
+    },
+    {
+      "id": "fit2-002",
+      "categoryId": "antrenor-personal",
+      "type": "single-choice",
+      "question": "Ce trebuie să ia în considerare individualizarea antrenamentului?",
+      "answers": [
+        {
+          "id": "fit2-002-a1",
+          "text": "Doar greutatea corporală"
+        },
+        {
+          "id": "fit2-002-a2",
+          "text": "Doar vârsta"
+        },
+        {
+          "id": "fit2-002-a3",
+          "text": "Scopul, vârsta, sexul, problemele medicale și timpul disponibil"
+        },
+        {
+          "id": "fit2-002-a4",
+          "text": "Numai exercițiile preferate"
+        }
+      ],
+      "correctAnswerIds": [
+        "fit2-002-a3"
+      ],
+      "explanation": "Manualul subliniază că antrenamentul și nutriția trebuie adaptate fiecărei persoane.",
+      "image": null,
+      "difficulty": "easy",
+      "source": {
+        "document": "Manual Curs Instructor Fitness – Personal Trainer – Fitness Education School",
+        "page": 31,
+        "chapter": "Capitolul 2 – Fitness & Culturism"
+      }
+    },
+    {
+      "id": "fit2-003",
+      "categoryId": "antrenor-personal",
+      "type": "single-choice",
+      "question": "Cum ar trebui ales nivelul de intensitate al antrenamentului?",
+      "answers": [
+        {
+          "id": "fit2-003-a1",
+          "text": "Identic pentru toți practicanții"
+        },
+        {
+          "id": "fit2-003-a2",
+          "text": "În funcție de forma fizică, tipul somatic, vârstă și sex"
+        },
+        {
+          "id": "fit2-003-a3",
+          "text": "Numai în funcție de greutățile disponibile"
+        },
+        {
+          "id": "fit2-003-a4",
+          "text": "Doar după durata ședinței"
+        }
+      ],
+      "correctAnswerIds": [
+        "fit2-003-a2"
+      ],
+      "explanation": "Intensitatea trebuie aleasă în funcție de caracteristicile și condiția practicantului.",
+      "image": null,
+      "difficulty": "easy",
+      "source": {
+        "document": "Manual Curs Instructor Fitness – Personal Trainer – Fitness Education School",
+        "page": 31,
+        "chapter": "Capitolul 2 – Fitness & Culturism"
+      }
+    },
+    {
+      "id": "fit2-004",
+      "categoryId": "antrenor-personal",
+      "type": "single-choice",
+      "question": "Ce rol poate avea antrenorul personal în privința nutriției, potrivit manualului?",
+      "answers": [
+        {
+          "id": "fit2-004-a1",
+          "text": "Poate contribui la alegerea unui plan nutrițional potrivit obiectivului"
+        },
+        {
+          "id": "fit2-004-a2",
+          "text": "Poate diagnostica orice afecțiune"
+        },
+        {
+          "id": "fit2-004-a3",
+          "text": "Trebuie să impună aceeași dietă tuturor"
+        },
+        {
+          "id": "fit2-004-a4",
+          "text": "Nu trebuie să țină cont de obiceiurile alimentare"
+        }
+      ],
+      "correctAnswerIds": [
+        "fit2-004-a1"
+      ],
+      "explanation": "Manualul descrie antrenorul ca sprijin în alegerea planului nutrițional, ținând cont de contextul persoanei.",
+      "image": null,
+      "difficulty": "easy",
+      "source": {
+        "document": "Manual Curs Instructor Fitness – Personal Trainer – Fitness Education School",
+        "page": 32,
+        "chapter": "Capitolul 2 – Fitness & Culturism"
+      }
+    },
+    {
+      "id": "fit2-005",
+      "categoryId": "antrenor-personal",
+      "type": "single-choice",
+      "question": "De ce este importantă menținerea motivației practicantului?",
+      "answers": [
+        {
+          "id": "fit2-005-a1",
+          "text": "Pentru a evita orice zi de odihnă"
+        },
+        {
+          "id": "fit2-005-a2",
+          "text": "Pentru a susține consecvența și încrederea în sine"
+        },
+        {
+          "id": "fit2-005-a3",
+          "text": "Pentru a crește automat greutățile folosite"
+        },
+        {
+          "id": "fit2-005-a4",
+          "text": "Pentru a elimina nevoia unui plan"
+        }
+      ],
+      "correctAnswerIds": [
+        "fit2-005-a2"
+      ],
+      "explanation": "Antrenorul poate susține motivația și încrederea practicantului în atingerea obiectivului.",
+      "image": null,
+      "difficulty": "easy",
+      "source": {
+        "document": "Manual Curs Instructor Fitness – Personal Trainer – Fitness Education School",
+        "page": 32,
+        "chapter": "Capitolul 2 – Fitness & Culturism"
+      }
+    },
+    {
+      "id": "fit2-006",
+      "categoryId": "antrenor-personal",
+      "type": "single-choice",
+      "question": "Ce poate transmite antrenorul prin puterea exemplului?",
+      "answers": [
+        {
+          "id": "fit2-006-a1",
+          "text": "Că tehnica nu contează"
+        },
+        {
+          "id": "fit2-006-a2",
+          "text": "Că propriul comportament poate susține credibilitatea și motivația"
+        },
+        {
+          "id": "fit2-006-a3",
+          "text": "Că toți trebuie să aibă aceeași formă fizică"
+        },
+        {
+          "id": "fit2-006-a4",
+          "text": "Că experiența practicantului este irelevantă"
+        }
+      ],
+      "correctAnswerIds": [
+        "fit2-006-a2"
+      ],
+      "explanation": "Manualul accentuează importanța exemplului personal în relația cu practicantul.",
+      "image": null,
+      "difficulty": "easy",
+      "source": {
+        "document": "Manual Curs Instructor Fitness – Personal Trainer – Fitness Education School",
+        "page": 32,
+        "chapter": "Capitolul 2 – Fitness & Culturism"
+      }
+    },
+    {
+      "id": "fit2-007",
+      "categoryId": "antrenor-personal",
+      "type": "single-choice",
+      "question": "Ce ar trebui verificat atunci când alegem un antrenor personal?",
+      "answers": [
+        {
+          "id": "fit2-007-a1",
+          "text": "Doar numărul de urmăritori online"
+        },
+        {
+          "id": "fit2-007-a2",
+          "text": "Calificările, referințele și condițiile colaborării"
+        },
+        {
+          "id": "fit2-007-a3",
+          "text": "Numai aspectul fizic"
+        },
+        {
+          "id": "fit2-007-a4",
+          "text": "Doar programul sălii"
+        }
+      ],
+      "correctAnswerIds": [
+        "fit2-007-a2"
+      ],
+      "explanation": "Manualul recomandă verificarea calificării, solicitarea referințelor și clarificarea colaborării.",
+      "image": null,
+      "difficulty": "easy",
+      "source": {
+        "document": "Manual Curs Instructor Fitness – Personal Trainer – Fitness Education School",
+        "page": 33,
+        "chapter": "Capitolul 2 – Fitness & Culturism"
+      }
+    },
+    {
+      "id": "fit2-008",
+      "categoryId": "antrenor-personal",
+      "type": "single-choice",
+      "question": "Ce diferențiază un antrenor personal calificat de o persoană care doar este într-o formă fizică bună?",
+      "answers": [
+        {
+          "id": "fit2-008-a1",
+          "text": "Doar capacitatea de a ridica greutăți mari"
+        },
+        {
+          "id": "fit2-008-a2",
+          "text": "Calificarea, experiența, pedagogia și educația"
+        },
+        {
+          "id": "fit2-008-a3",
+          "text": "Vârsta mai mică"
+        },
+        {
+          "id": "fit2-008-a4",
+          "text": "Faptul că se antrenează zilnic"
+        }
+      ],
+      "correctAnswerIds": [
+        "fit2-008-a2"
+      ],
+      "explanation": "O formă fizică bună, singură, nu înlocuiește calificarea și abilitățile pedagogice.",
+      "image": null,
+      "difficulty": "easy",
+      "source": {
+        "document": "Manual Curs Instructor Fitness – Personal Trainer – Fitness Education School",
+        "page": 33,
+        "chapter": "Capitolul 2 – Fitness & Culturism"
+      }
+    },
+    {
+      "id": "fit2-009",
+      "categoryId": "antrenor-personal",
+      "type": "single-choice",
+      "question": "Ce atitudine este asociată profesionalismului antrenorului personal?",
+      "answers": [
+        {
+          "id": "fit2-009-a1",
+          "text": "Improvisarea permanentă"
+        },
+        {
+          "id": "fit2-009-a2",
+          "text": "Seriozitatea și responsabilitatea față de practicant și obiectivul său"
+        },
+        {
+          "id": "fit2-009-a3",
+          "text": "Promisiunile de rezultate imediate"
+        },
+        {
+          "id": "fit2-009-a4",
+          "text": "Ignorarea feedbackului"
+        }
+      ],
+      "correctAnswerIds": [
+        "fit2-009-a2"
+      ],
+      "explanation": "Manualul evidențiază seriozitatea și responsabilitatea în relația cu practicantul.",
+      "image": null,
+      "difficulty": "easy",
+      "source": {
+        "document": "Manual Curs Instructor Fitness – Personal Trainer – Fitness Education School",
+        "page": 33,
+        "chapter": "Capitolul 2 – Fitness & Culturism"
+      }
+    },
+    {
+      "id": "fit2-010",
+      "categoryId": "metodologie",
+      "type": "single-choice",
+      "question": "Ce caracterizează un exercițiu de bază?",
+      "answers": [
+        {
+          "id": "fit2-010-a1",
+          "text": "Implică o singură articulație"
+        },
+        {
+          "id": "fit2-010-a2",
+          "text": "Implică două sau mai multe articulații"
+        },
+        {
+          "id": "fit2-010-a3",
+          "text": "Izolează întotdeauna un singur mușchi"
+        },
+        {
+          "id": "fit2-010-a4",
+          "text": "Se execută numai la aparate"
+        }
+      ],
+      "correctAnswerIds": [
+        "fit2-010-a2"
+      ],
+      "explanation": "Exercițiile de bază implică două sau mai multe articulații și grupe musculare principale și secundare.",
+      "image": null,
+      "difficulty": "easy",
+      "source": {
+        "document": "Manual Curs Instructor Fitness – Personal Trainer – Fitness Education School",
+        "page": 34,
+        "chapter": "Capitolul 2 – Fitness & Culturism"
+      }
+    },
+    {
+      "id": "fit2-011",
+      "categoryId": "metodologie",
+      "type": "single-choice",
+      "question": "Ce caracterizează, în general, un exercițiu de izolare?",
+      "answers": [
+        {
+          "id": "fit2-011-a1",
+          "text": "Implică mai multe articulații în mod obligatoriu"
+        },
+        {
+          "id": "fit2-011-a2",
+          "text": "Implică o singură articulație și, în principiu, o grupă musculară"
+        },
+        {
+          "id": "fit2-011-a3",
+          "text": "Necesită întotdeauna cele mai mari greutăți"
+        },
+        {
+          "id": "fit2-011-a4",
+          "text": "Nu poate fi inclus într-un program"
+        }
+      ],
+      "correctAnswerIds": [
+        "fit2-011-a2"
+      ],
+      "explanation": "Exercițiile de izolare implică o singură articulație și, în principiu, o grupă musculară.",
+      "image": null,
+      "difficulty": "easy",
+      "source": {
+        "document": "Manual Curs Instructor Fitness – Personal Trainer – Fitness Education School",
+        "page": 34,
+        "chapter": "Capitolul 2 – Fitness & Culturism"
+      }
+    },
+    {
+      "id": "fit2-012",
+      "categoryId": "metodologie",
+      "type": "single-choice",
+      "question": "Comparativ cu exercițiile de izolare, ce greutăți se folosesc de obicei la exercițiile de bază?",
+      "answers": [
+        {
+          "id": "fit2-012-a1",
+          "text": "Mai mari"
+        },
+        {
+          "id": "fit2-012-a2",
+          "text": "Întotdeauna mai mici"
+        },
+        {
+          "id": "fit2-012-a3",
+          "text": "Niciodată greutăți externe"
+        },
+        {
+          "id": "fit2-012-a4",
+          "text": "Exact aceleași pentru orice persoană"
+        }
+      ],
+      "correctAnswerIds": [
+        "fit2-012-a1"
+      ],
+      "explanation": "Fiind implicați mușchi principali și secundari, la exercițiile de bază se folosesc de obicei greutăți mai mari.",
+      "image": null,
+      "difficulty": "easy",
+      "source": {
+        "document": "Manual Curs Instructor Fitness – Personal Trainer – Fitness Education School",
+        "page": 34,
+        "chapter": "Capitolul 2 – Fitness & Culturism"
+      }
+    },
+    {
+      "id": "fit2-013",
+      "categoryId": "metodologie",
+      "type": "single-choice",
+      "question": "În multe programe, ce tip de exerciții se execută de regulă la început?",
+      "answers": [
+        {
+          "id": "fit2-013-a1",
+          "text": "Exercițiile de izolare"
+        },
+        {
+          "id": "fit2-013-a2",
+          "text": "Exercițiile de bază"
+        },
+        {
+          "id": "fit2-013-a3",
+          "text": "Doar exercițiile abdominale"
+        },
+        {
+          "id": "fit2-013-a4",
+          "text": "Doar stretching"
+        }
+      ],
+      "correctAnswerIds": [
+        "fit2-013-a2"
+      ],
+      "explanation": "Manualul arată că exercițiile de bază sunt adesea executate primele.",
+      "image": null,
+      "difficulty": "easy",
+      "source": {
+        "document": "Manual Curs Instructor Fitness – Personal Trainer – Fitness Education School",
+        "page": 34,
+        "chapter": "Capitolul 2 – Fitness & Culturism"
+      }
+    },
+    {
+      "id": "fit2-014",
+      "categoryId": "metodologie",
+      "type": "single-choice",
+      "question": "Ce înseamnă pre-obosirea musculară?",
+      "answers": [
+        {
+          "id": "fit2-014-a1",
+          "text": "Executarea exercițiului de bază înaintea încălzirii"
+        },
+        {
+          "id": "fit2-014-a2",
+          "text": "Pre-obosirea unei grupe cu un exercițiu de izolare înaintea unuia de bază"
+        },
+        {
+          "id": "fit2-014-a3",
+          "text": "Oprirea antrenamentului înainte de efort"
+        },
+        {
+          "id": "fit2-014-a4",
+          "text": "Reducerea tuturor pauzelor la zero"
+        }
+      ],
+      "correctAnswerIds": [
+        "fit2-014-a2"
+      ],
+      "explanation": "Pre-obosirea folosește un exercițiu de izolare înaintea exercițiului compus pentru aceeași grupă.",
+      "image": null,
+      "difficulty": "easy",
+      "source": {
+        "document": "Manual Curs Instructor Fitness – Personal Trainer – Fitness Education School",
+        "page": 35,
+        "chapter": "Capitolul 2 – Fitness & Culturism"
+      }
+    },
+    {
+      "id": "fit2-015",
+      "categoryId": "metodologie",
+      "type": "single-choice",
+      "question": "Cum este descrisă post-obosirea în capitol?",
+      "answers": [
+        {
+          "id": "fit2-015-a1",
+          "text": "Exercițiul de bază este plasat la începutul supersetului"
+        },
+        {
+          "id": "fit2-015-a2",
+          "text": "Se elimină exercițiile compuse"
+        },
+        {
+          "id": "fit2-015-a3",
+          "text": "Se lucrează numai cu greutatea corpului"
+        },
+        {
+          "id": "fit2-015-a4",
+          "text": "Se face doar în zilele de odihnă"
+        }
+      ],
+      "correctAnswerIds": [
+        "fit2-015-a1"
+      ],
+      "explanation": "În descrierea manualului, post-obosirea plasează exercițiul de bază la începutul supersetului.",
+      "image": null,
+      "difficulty": "easy",
+      "source": {
+        "document": "Manual Curs Instructor Fitness – Personal Trainer – Fitness Education School",
+        "page": 35,
+        "chapter": "Capitolul 2 – Fitness & Culturism"
+      }
+    },
+    {
+      "id": "fit2-016",
+      "categoryId": "metodologie",
+      "type": "single-choice",
+      "question": "Care este un motiv pentru combinarea exercițiilor de bază și de izolare?",
+      "answers": [
+        {
+          "id": "fit2-016-a1",
+          "text": "Pentru a evita orice adaptare"
+        },
+        {
+          "id": "fit2-016-a2",
+          "text": "Pentru a crea combinații și a varia structura antrenamentului"
+        },
+        {
+          "id": "fit2-016-a3",
+          "text": "Pentru a elimina toate pauzele"
+        },
+        {
+          "id": "fit2-016-a4",
+          "text": "Pentru a antrena numai mușchii secundari"
+        }
+      ],
+      "correctAnswerIds": [
+        "fit2-016-a2"
+      ],
+      "explanation": "Manualul menționează combinațiile dintre tipurile de exerciții și evitarea rutinei.",
+      "image": null,
+      "difficulty": "medium",
+      "source": {
+        "document": "Manual Curs Instructor Fitness – Personal Trainer – Fitness Education School",
+        "page": 35,
+        "chapter": "Capitolul 2 – Fitness & Culturism"
+      }
+    },
+    {
+      "id": "fit2-017",
+      "categoryId": "metodologie",
+      "type": "single-choice",
+      "question": "Ce urmăresc tehnicile de creștere a intensității antrenamentelor?",
+      "answers": [
+        {
+          "id": "fit2-017-a1",
+          "text": "Să facă programul identic pentru toți"
+        },
+        {
+          "id": "fit2-017-a2",
+          "text": "Să modifice modul de organizare și solicitare a exercițiilor"
+        },
+        {
+          "id": "fit2-017-a3",
+          "text": "Să elimine necesitatea recuperării"
+        },
+        {
+          "id": "fit2-017-a4",
+          "text": "Să înlocuiască alimentația"
+        }
+      ],
+      "correctAnswerIds": [
+        "fit2-017-a2"
+      ],
+      "explanation": "Tehnicile schimbă felul în care sunt organizate și combinate exercițiile.",
+      "image": null,
+      "difficulty": "medium",
+      "source": {
+        "document": "Manual Curs Instructor Fitness – Personal Trainer – Fitness Education School",
+        "page": 35,
+        "chapter": "Capitolul 2 – Fitness & Culturism"
+      }
+    },
+    {
+      "id": "fit2-018",
+      "categoryId": "metodologie",
+      "type": "single-choice",
+      "question": "De ce este utilă evitarea rutinei în antrenament?",
+      "answers": [
+        {
+          "id": "fit2-018-a1",
+          "text": "Pentru că schimbarea structurii și a exercițiilor poate fi benefică"
+        },
+        {
+          "id": "fit2-018-a2",
+          "text": "Pentru că orice exercițiu trebuie schimbat zilnic"
+        },
+        {
+          "id": "fit2-018-a3",
+          "text": "Pentru a nu mai urmări progresul"
+        },
+        {
+          "id": "fit2-018-a4",
+          "text": "Pentru a evita învățarea tehnicii"
+        }
+      ],
+      "correctAnswerIds": [
+        "fit2-018-a1"
+      ],
+      "explanation": "Manualul subliniază beneficiile schimbării periodice a structurii și exercițiilor.",
+      "image": null,
+      "difficulty": "medium",
+      "source": {
+        "document": "Manual Curs Instructor Fitness – Personal Trainer – Fitness Education School",
+        "page": 35,
+        "chapter": "Capitolul 2 – Fitness & Culturism"
+      }
+    },
+    {
+      "id": "fit2-019",
+      "categoryId": "antrenor-personal",
+      "type": "single-choice",
+      "question": "Ce ar trebui să facă practicantul care urmărește rezultate prin antrenament?",
+      "answers": [
+        {
+          "id": "fit2-019-a1",
+          "text": "Să se antreneze haotic"
+        },
+        {
+          "id": "fit2-019-a2",
+          "text": "Să țină cont de obiectiv și de individualizarea antrenamentului"
+        },
+        {
+          "id": "fit2-019-a3",
+          "text": "Să copieze programul oricărei persoane"
+        },
+        {
+          "id": "fit2-019-a4",
+          "text": "Să ignore recuperarea"
+        }
+      ],
+      "correctAnswerIds": [
+        "fit2-019-a2"
+      ],
+      "explanation": "Antrenamentul trebuie organizat în raport cu obiectivul și caracteristicile individuale.",
+      "image": null,
+      "difficulty": "medium",
+      "source": {
+        "document": "Manual Curs Instructor Fitness – Personal Trainer – Fitness Education School",
+        "page": 31,
+        "chapter": "Capitolul 2 – Fitness & Culturism"
+      }
+    },
+    {
+      "id": "fit2-020",
+      "categoryId": "metodologie",
+      "type": "single-choice",
+      "question": "Ce risc este asociat antrenamentului haotic și supra-antrenării, potrivit capitolului?",
+      "answers": [
+        {
+          "id": "fit2-020-a1",
+          "text": "Îmbunătățirea garantată a tehnicii"
+        },
+        {
+          "id": "fit2-020-a2",
+          "text": "Accidentarea și progresul necorespunzător"
+        },
+        {
+          "id": "fit2-020-a3",
+          "text": "Eliminarea oboselii"
+        },
+        {
+          "id": "fit2-020-a4",
+          "text": "Creșterea automată a motivației"
+        }
+      ],
+      "correctAnswerIds": [
+        "fit2-020-a2"
+      ],
+      "explanation": "Manualul avertizează că antrenamentul haotic și supra-antrenarea pot duce la accidentări.",
+      "image": null,
+      "difficulty": "medium",
+      "source": {
+        "document": "Manual Curs Instructor Fitness – Personal Trainer – Fitness Education School",
+        "page": 31,
+        "chapter": "Capitolul 2 – Fitness & Culturism"
+      }
+    },
+    {
+      "id": "fit2-021",
+      "categoryId": "antrenor-personal",
+      "type": "single-choice",
+      "question": "Ce idee susține individualizarea planului de antrenament?",
+      "answers": [
+        {
+          "id": "fit2-021-a1",
+          "text": "Toți oamenii răspund identic la același program"
+        },
+        {
+          "id": "fit2-021-a2",
+          "text": "Fiecare persoană are particularități și obiective proprii"
+        },
+        {
+          "id": "fit2-021-a3",
+          "text": "Doar nivelul de forță contează"
+        },
+        {
+          "id": "fit2-021-a4",
+          "text": "Vârsta nu are nicio relevanță"
+        }
+      ],
+      "correctAnswerIds": [
+        "fit2-021-a2"
+      ],
+      "explanation": "Manualul afirmă că fiecare persoană este unică și că planul trebuie adaptat.",
+      "image": null,
+      "difficulty": "medium",
+      "source": {
+        "document": "Manual Curs Instructor Fitness – Personal Trainer – Fitness Education School",
+        "page": 31,
+        "chapter": "Capitolul 2 – Fitness & Culturism"
+      }
+    },
+    {
+      "id": "fit2-022",
+      "categoryId": "antrenor-personal",
+      "type": "single-choice",
+      "question": "Ce poate influența eficiența unei ședințe de antrenament, în afară de alegerea exercițiilor?",
+      "answers": [
+        {
+          "id": "fit2-022-a1",
+          "text": "Organizarea atractivă, eficace și sigură a ședinței"
+        },
+        {
+          "id": "fit2-022-a2",
+          "text": "Doar muzica din sală"
+        },
+        {
+          "id": "fit2-022-a3",
+          "text": "Numărul de oglinzi"
+        },
+        {
+          "id": "fit2-022-a4",
+          "text": "Culoarea echipamentului"
+        }
+      ],
+      "correctAnswerIds": [
+        "fit2-022-a1"
+      ],
+      "explanation": "Antrenorul trebuie să organizeze ședințe atractive, eficace și sigure.",
+      "image": null,
+      "difficulty": "medium",
+      "source": {
+        "document": "Manual Curs Instructor Fitness – Personal Trainer – Fitness Education School",
+        "page": 31,
+        "chapter": "Capitolul 2 – Fitness & Culturism"
+      }
+    },
+    {
+      "id": "fit2-023",
+      "categoryId": "antrenor-personal",
+      "type": "single-choice",
+      "question": "Care este una dintre responsabilitățile antrenorului față de practicant?",
+      "answers": [
+        {
+          "id": "fit2-023-a1",
+          "text": "Să ignore eventualele probleme medicale"
+        },
+        {
+          "id": "fit2-023-a2",
+          "text": "Să țină cont de problemele medicale menționate și de obiectiv"
+        },
+        {
+          "id": "fit2-023-a3",
+          "text": "Să garanteze rezultate rapide"
+        },
+        {
+          "id": "fit2-023-a4",
+          "text": "Să recomande aceeași intensitate tuturor"
+        }
+      ],
+      "correctAnswerIds": [
+        "fit2-023-a2"
+      ],
+      "explanation": "Problemele medicale și obiectivul sunt printre factorii ce trebuie luați în considerare.",
+      "image": null,
+      "difficulty": "medium",
+      "source": {
+        "document": "Manual Curs Instructor Fitness – Personal Trainer – Fitness Education School",
+        "page": 31,
+        "chapter": "Capitolul 2 – Fitness & Culturism"
+      }
+    },
+    {
+      "id": "fit2-024",
+      "categoryId": "partener",
+      "type": "single-choice",
+      "question": "Ce rol poate avea un partener de antrenament?",
+      "answers": [
+        {
+          "id": "fit2-024-a1",
+          "text": "Să înlocuiască complet planificarea"
+        },
+        {
+          "id": "fit2-024-a2",
+          "text": "Să ofere sprijin, feedback și motivație"
+        },
+        {
+          "id": "fit2-024-a3",
+          "text": "Să decidă în locul antrenorului în orice situație"
+        },
+        {
+          "id": "fit2-024-a4",
+          "text": "Să facă progresul imposibil de măsurat"
+        }
+      ],
+      "correctAnswerIds": [
+        "fit2-024-a2"
+      ],
+      "explanation": "Partenerul poate contribui la motivație, corectarea mișcării și siguranță.",
+      "image": null,
+      "difficulty": "medium",
+      "source": {
+        "document": "Manual Curs Instructor Fitness – Personal Trainer – Fitness Education School",
+        "page": 48,
+        "chapter": "Capitolul 2 – Fitness & Culturism"
+      }
+    },
+    {
+      "id": "fit2-025",
+      "categoryId": "partener",
+      "type": "single-choice",
+      "question": "Ce fel de competiție este descrisă ca benefică între partenerii de antrenament?",
+      "answers": [
+        {
+          "id": "fit2-025-a1",
+          "text": "Una ostilă, cu orice preț"
+        },
+        {
+          "id": "fit2-025-a2",
+          "text": "O competiție constructivă, menită să motiveze și să ajute"
+        },
+        {
+          "id": "fit2-025-a3",
+          "text": "Una în care trebuie să existe un singur câștigător"
+        },
+        {
+          "id": "fit2-025-a4",
+          "text": "Una bazată pe ignorarea tehnicii"
+        }
+      ],
+      "correctAnswerIds": [
+        "fit2-025-a2"
+      ],
+      "explanation": "Manualul descrie competiția constructivă ca fiind motivantă și reciproc utilă.",
+      "image": null,
+      "difficulty": "medium",
+      "source": {
+        "document": "Manual Curs Instructor Fitness – Personal Trainer – Fitness Education School",
+        "page": 49,
+        "chapter": "Capitolul 2 – Fitness & Culturism"
+      }
+    },
+    {
+      "id": "fit2-026",
+      "categoryId": "partener",
+      "type": "single-choice",
+      "question": "De ce poate fi importantă încrederea între partenerii de antrenament?",
+      "answers": [
+        {
+          "id": "fit2-026-a1",
+          "text": "Pentru că permite ignorarea regulilor de siguranță"
+        },
+        {
+          "id": "fit2-026-a2",
+          "text": "Pentru că partenerul poate ajuta la ultimele repetări și poate oferi feedback"
+        },
+        {
+          "id": "fit2-026-a3",
+          "text": "Pentru că elimină nevoia de tehnică"
+        },
+        {
+          "id": "fit2-026-a4",
+          "text": "Pentru că face inutilă recuperarea"
+        }
+      ],
+      "correctAnswerIds": [
+        "fit2-026-a2"
+      ],
+      "explanation": "Încrederea poate ajuta la asistarea exercițiilor și la feedback privind încărcarea și execuția.",
+      "image": null,
+      "difficulty": "medium",
+      "source": {
+        "document": "Manual Curs Instructor Fitness – Personal Trainer – Fitness Education School",
+        "page": 48,
+        "chapter": "Capitolul 2 – Fitness & Culturism"
+      }
+    },
+    {
+      "id": "fit2-027",
+      "categoryId": "metodologie",
+      "type": "single-choice",
+      "question": "Ce poate schimba modul în care un mușchi este solicitat în timpul unui exercițiu?",
+      "answers": [
+        {
+          "id": "fit2-027-a1",
+          "text": "Modificarea unghiului mișcării sau a prizei"
+        },
+        {
+          "id": "fit2-027-a2",
+          "text": "Schimbarea culorii echipamentului"
+        },
+        {
+          "id": "fit2-027-a3",
+          "text": "Numai schimbarea orei de antrenament"
+        },
+        {
+          "id": "fit2-027-a4",
+          "text": "Eliminarea tuturor exercițiilor de bază"
+        }
+      ],
+      "correctAnswerIds": [
+        "fit2-027-a1"
+      ],
+      "explanation": "Manualul oferă exemple privind schimbarea prizei sau a unghiului pentru a modifica solicitarea.",
+      "image": null,
+      "difficulty": "medium",
+      "source": {
+        "document": "Manual Curs Instructor Fitness – Personal Trainer – Fitness Education School",
+        "page": 47,
+        "chapter": "Capitolul 2 – Fitness & Culturism"
+      }
+    },
+    {
+      "id": "fit2-028",
+      "categoryId": "metodologie",
+      "type": "single-choice",
+      "question": "Ce alte elemente sunt menționate ca importante pentru evoluția sportivă, alături de antrenament?",
+      "answers": [
+        {
+          "id": "fit2-028-a1",
+          "text": "Nutriția, geneticul și atitudinea față de sport"
+        },
+        {
+          "id": "fit2-028-a2",
+          "text": "Doar suplimentele"
+        },
+        {
+          "id": "fit2-028-a3",
+          "text": "Doar durata încălzirii"
+        },
+        {
+          "id": "fit2-028-a4",
+          "text": "Numai partenerul de antrenament"
+        }
+      ],
+      "correctAnswerIds": [
+        "fit2-028-a1"
+      ],
+      "explanation": "Capitolul enumeră antrenamentul, nutriția, geneticul și atitudinea față de sport.",
+      "image": null,
+      "difficulty": "medium",
+      "source": {
+        "document": "Manual Curs Instructor Fitness – Personal Trainer – Fitness Education School",
+        "page": 48,
+        "chapter": "Capitolul 2 – Fitness & Culturism"
+      }
+    },
+    {
+      "id": "fit2-029",
+      "categoryId": "metodologie",
+      "type": "single-choice",
+      "question": "Ce loc au odihna și alimentația în obținerea rezultatelor?",
+      "answers": [
+        {
+          "id": "fit2-029-a1",
+          "text": "Sunt neimportante dacă antrenamentul este intens"
+        },
+        {
+          "id": "fit2-029-a2",
+          "text": "Sunt elemente importante pentru susținerea progresului"
+        },
+        {
+          "id": "fit2-029-a3",
+          "text": "Odihna trebuie eliminată"
+        },
+        {
+          "id": "fit2-029-a4",
+          "text": "Alimentația trebuie să fie identică pentru toți"
+        }
+      ],
+      "correctAnswerIds": [
+        "fit2-029-a2"
+      ],
+      "explanation": "Manualul menționează alimentația de calitate și odihna ca elemente esențiale.",
+      "image": null,
+      "difficulty": "medium",
+      "source": {
+        "document": "Manual Curs Instructor Fitness – Personal Trainer – Fitness Education School",
+        "page": 47,
+        "chapter": "Capitolul 2 – Fitness & Culturism"
+      }
+    },
+    {
+      "id": "fit2-030",
+      "categoryId": "programe",
+      "type": "single-choice",
+      "question": "Care este scopul general al programelor-model prezentate în capitolul 2.3?",
+      "answers": [
+        {
+          "id": "fit2-030-a1",
+          "text": "Să ofere exemple de organizare a antrenamentului"
+        },
+        {
+          "id": "fit2-030-a2",
+          "text": "Să înlocuiască adaptarea la fiecare persoană"
+        },
+        {
+          "id": "fit2-030-a3",
+          "text": "Să fie aplicate identic indiferent de experiență"
+        },
+        {
+          "id": "fit2-030-a4",
+          "text": "Să descrie exclusiv nutriția"
+        }
+      ],
+      "correctAnswerIds": [
+        "fit2-030-a1"
+      ],
+      "explanation": "Secțiunea 2.3 prezintă modele de programe de antrenament, inclusiv unul pentru începători.",
+      "image": null,
+      "difficulty": "medium",
+      "source": {
+        "document": "Manual Curs Instructor Fitness – Personal Trainer – Fitness Education School",
+        "page": 49,
+        "chapter": "Capitolul 2 – Fitness & Culturism"
+      }
+    },
+    {
+      "id": "fit2-031",
+      "categoryId": "programe",
+      "type": "single-choice",
+      "question": "Câte zile pe săptămână are modelul de program pentru începători prezentat la începutul secțiunii 2.3?",
+      "answers": [
+        {
+          "id": "fit2-031-a1",
+          "text": "Două zile"
+        },
+        {
+          "id": "fit2-031-a2",
+          "text": "Trei zile"
+        },
+        {
+          "id": "fit2-031-a3",
+          "text": "Patru zile"
+        },
+        {
+          "id": "fit2-031-a4",
+          "text": "Șase zile"
+        }
+      ],
+      "correctAnswerIds": [
+        "fit2-031-a2"
+      ],
+      "explanation": "Titlul programului din manual este „Program pentru începători - 3 zile”.",
+      "image": null,
+      "difficulty": "medium",
+      "source": {
+        "document": "Manual Curs Instructor Fitness – Personal Trainer – Fitness Education School",
+        "page": 49,
+        "chapter": "Capitolul 2 – Fitness & Culturism"
+      }
+    },
+    {
+      "id": "fit2-032",
+      "categoryId": "programe",
+      "type": "single-choice",
+      "question": "În modelul pentru începători, în ce zi este programată prima ședință descrisă?",
+      "answers": [
+        {
+          "id": "fit2-032-a1",
+          "text": "Luni"
+        },
+        {
+          "id": "fit2-032-a2",
+          "text": "Marți"
+        },
+        {
+          "id": "fit2-032-a3",
+          "text": "Joi"
+        },
+        {
+          "id": "fit2-032-a4",
+          "text": "Duminică"
+        }
+      ],
+      "correctAnswerIds": [
+        "fit2-032-a1"
+      ],
+      "explanation": "Prima ședință este prezentată ca „Ziua 1 - luni”.",
+      "image": null,
+      "difficulty": "medium",
+      "source": {
+        "document": "Manual Curs Instructor Fitness – Personal Trainer – Fitness Education School",
+        "page": 50,
+        "chapter": "Capitolul 2 – Fitness & Culturism"
+      }
+    },
+    {
+      "id": "fit2-033",
+      "categoryId": "programe",
+      "type": "single-choice",
+      "question": "Ce grupe sunt menționate în programul de luni din modelul pentru începători?",
+      "answers": [
+        {
+          "id": "fit2-033-a1",
+          "text": "Spate și biceps"
+        },
+        {
+          "id": "fit2-033-a2",
+          "text": "Piept, deltoid median și anterior, triceps"
+        },
+        {
+          "id": "fit2-033-a3",
+          "text": "Picioare și abdomen"
+        },
+        {
+          "id": "fit2-033-a4",
+          "text": "Gambe și antebrațe"
+        }
+      ],
+      "correctAnswerIds": [
+        "fit2-033-a2"
+      ],
+      "explanation": "Programul de luni include piept, deltoid median și anterior și triceps.",
+      "image": null,
+      "difficulty": "medium",
+      "source": {
+        "document": "Manual Curs Instructor Fitness – Personal Trainer – Fitness Education School",
+        "page": 50,
+        "chapter": "Capitolul 2 – Fitness & Culturism"
+      }
+    },
+    {
+      "id": "fit2-034",
+      "categoryId": "programe",
+      "type": "single-choice",
+      "question": "Ce grupă este indicată pentru „Ziua 2 - miercuri” în modelul pentru începători?",
+      "answers": [
+        {
+          "id": "fit2-034-a1",
+          "text": "Picioare"
+        },
+        {
+          "id": "fit2-034-a2",
+          "text": "Piept"
+        },
+        {
+          "id": "fit2-034-a3",
+          "text": "Triceps"
+        },
+        {
+          "id": "fit2-034-a4",
+          "text": "Abdomen exclusiv"
+        }
+      ],
+      "correctAnswerIds": [
+        "fit2-034-a1"
+      ],
+      "explanation": "Modelul indică picioarele pentru ziua de miercuri.",
+      "image": null,
+      "difficulty": "medium",
+      "source": {
+        "document": "Manual Curs Instructor Fitness – Personal Trainer – Fitness Education School",
+        "page": 50,
+        "chapter": "Capitolul 2 – Fitness & Culturism"
+      }
+    },
+    {
+      "id": "fit2-035",
+      "categoryId": "programe",
+      "type": "single-choice",
+      "question": "Ce reprezintă o serie într-un program de antrenament?",
+      "answers": [
+        {
+          "id": "fit2-035-a1",
+          "text": "Un set de repetări ale unui exercițiu"
+        },
+        {
+          "id": "fit2-035-a2",
+          "text": "O săptămână de odihnă"
+        },
+        {
+          "id": "fit2-035-a3",
+          "text": "O categorie de alimente"
+        },
+        {
+          "id": "fit2-035-a4",
+          "text": "O măsură a pulsului"
+        }
+      ],
+      "correctAnswerIds": [
+        "fit2-035-a1"
+      ],
+      "explanation": "În program, prescripțiile sunt exprimate în serii și repetări.",
+      "image": null,
+      "difficulty": "medium",
+      "source": {
+        "document": "Manual Curs Instructor Fitness – Personal Trainer – Fitness Education School",
+        "page": 50,
+        "chapter": "Capitolul 2 – Fitness & Culturism"
+      }
+    },
+    {
+      "id": "fit2-036",
+      "categoryId": "antrenor-personal",
+      "type": "single-choice",
+      "question": "De ce este important ca ședințele să fie sigure și bine tolerate?",
+      "answers": [
+        {
+          "id": "fit2-036-a1",
+          "text": "Pentru a reduce riscurile și a susține continuitatea practicii"
+        },
+        {
+          "id": "fit2-036-a2",
+          "text": "Pentru a evita orice efort"
+        },
+        {
+          "id": "fit2-036-a3",
+          "text": "Pentru a garanta rezultate într-o singură zi"
+        },
+        {
+          "id": "fit2-036-a4",
+          "text": "Pentru a nu mai adapta intensitatea"
+        }
+      ],
+      "correctAnswerIds": [
+        "fit2-036-a1"
+      ],
+      "explanation": "Manualul cere ca antrenamentul să fie plăcut, bine tolerat și sigur.",
+      "image": null,
+      "difficulty": "medium",
+      "source": {
+        "document": "Manual Curs Instructor Fitness – Personal Trainer – Fitness Education School",
+        "page": 31,
+        "chapter": "Capitolul 2 – Fitness & Culturism"
+      }
+    },
+    {
+      "id": "fit2-037",
+      "categoryId": "antrenor-personal",
+      "type": "single-choice",
+      "question": "Ce abordare este criticată în capitol atunci când cineva dorește să slăbească sau să acumuleze masă musculară rapid?",
+      "answers": [
+        {
+          "id": "fit2-037-a1",
+          "text": "Planificarea individualizată"
+        },
+        {
+          "id": "fit2-037-a2",
+          "text": "Antrenamentul haotic și dietele fanteziste preluate fără discernământ"
+        },
+        {
+          "id": "fit2-037-a3",
+          "text": "Consultarea unui specialist"
+        },
+        {
+          "id": "fit2-037-a4",
+          "text": "Urmărirea obiectivului"
+        }
+      ],
+      "correctAnswerIds": [
+        "fit2-037-a2"
+      ],
+      "explanation": "Capitolul critică antrenamentul haotic și dietele fanteziste urmate pentru rezultate rapide.",
+      "image": null,
+      "difficulty": "medium",
+      "source": {
+        "document": "Manual Curs Instructor Fitness – Personal Trainer – Fitness Education School",
+        "page": 31,
+        "chapter": "Capitolul 2 – Fitness & Culturism"
+      }
+    },
+    {
+      "id": "fit2-038",
+      "categoryId": "antrenor-personal",
+      "type": "single-choice",
+      "question": "Ce ar trebui să facă antrenorul când stabilește planul împreună cu practicantul?",
+      "answers": [
+        {
+          "id": "fit2-038-a1",
+          "text": "Să ignore obiceiurile deja existente"
+        },
+        {
+          "id": "fit2-038-a2",
+          "text": "Să țină cont de obiceiuri, obiective și eventuale afecțiuni"
+        },
+        {
+          "id": "fit2-038-a3",
+          "text": "Să folosească exclusiv un plan standard"
+        },
+        {
+          "id": "fit2-038-a4",
+          "text": "Să schimbe obiectivul fără discuție"
+        }
+      ],
+      "correctAnswerIds": [
+        "fit2-038-a2"
+      ],
+      "explanation": "Planul trebuie să țină cont de obiectiv, obiceiuri alimentare și eventuale afecțiuni.",
+      "image": null,
+      "difficulty": "medium",
+      "source": {
+        "document": "Manual Curs Instructor Fitness – Personal Trainer – Fitness Education School",
+        "page": 32,
+        "chapter": "Capitolul 2 – Fitness & Culturism"
+      }
+    },
+    {
+      "id": "fit2-039",
+      "categoryId": "antrenor-personal",
+      "type": "single-choice",
+      "question": "Care este o funcție a pedagogiei în activitatea antrenorului personal?",
+      "answers": [
+        {
+          "id": "fit2-039-a1",
+          "text": "Nu are nicio legătură cu profesia"
+        },
+        {
+          "id": "fit2-039-a2",
+          "text": "Contribuie la diferența dintre un antrenor bun și un diletant"
+        },
+        {
+          "id": "fit2-039-a3",
+          "text": "Înlocuiește cunoștințele de specialitate"
+        },
+        {
+          "id": "fit2-039-a4",
+          "text": "Este relevantă doar pentru sportivii de performanță"
+        }
+      ],
+      "correctAnswerIds": [
+        "fit2-039-a2"
+      ],
+      "explanation": "Manualul evidențiază pedagogia și educația ca elemente importante ale profesiei.",
+      "image": null,
+      "difficulty": "medium",
+      "source": {
+        "document": "Manual Curs Instructor Fitness – Personal Trainer – Fitness Education School",
+        "page": 33,
+        "chapter": "Capitolul 2 – Fitness & Culturism"
+      }
+    },
+    {
+      "id": "fit2-040",
+      "categoryId": "antrenor-personal",
+      "type": "single-choice",
+      "question": "Ce este recomandat să fie clarificat de la începutul colaborării cu un antrenor?",
+      "answers": [
+        {
+          "id": "fit2-040-a1",
+          "text": "Condițiile colaborării"
+        },
+        {
+          "id": "fit2-040-a2",
+          "text": "Doar marca echipamentului"
+        },
+        {
+          "id": "fit2-040-a3",
+          "text": "Numărul de oglinzi din sală"
+        },
+        {
+          "id": "fit2-040-a4",
+          "text": "Culoarea vestiarului"
+        }
+      ],
+      "correctAnswerIds": [
+        "fit2-040-a1"
+      ],
+      "explanation": "Manualul recomandă stabilirea clară a condițiilor colaborării.",
+      "image": null,
+      "difficulty": "medium",
+      "source": {
+        "document": "Manual Curs Instructor Fitness – Personal Trainer – Fitness Education School",
+        "page": 33,
+        "chapter": "Capitolul 2 – Fitness & Culturism"
+      }
+    },
+    {
+      "id": "fit2-041",
+      "categoryId": "antrenor-personal",
+      "type": "multiple-choice",
+      "question": "Ce factori sunt menționați pentru individualizarea antrenamentului?",
+      "answers": [
+        {
+          "id": "fit2-041-a1",
+          "text": "Scopul propus"
+        },
+        {
+          "id": "fit2-041-a2",
+          "text": "Vârsta și sexul"
+        },
+        {
+          "id": "fit2-041-a3",
+          "text": "Problemele medicale și timpul disponibil"
+        },
+        {
+          "id": "fit2-041-a4",
+          "text": "Culoarea echipamentului"
+        }
+      ],
+      "correctAnswerIds": [
+        "fit2-041-a1",
+        "fit2-041-a2",
+        "fit2-041-a3"
+      ],
+      "explanation": "Scopul, vârsta, sexul, problemele medicale și timpul disponibil sunt factori relevanți.",
+      "image": null,
+      "difficulty": "hard",
+      "source": {
+        "document": "Manual Curs Instructor Fitness – Personal Trainer – Fitness Education School",
+        "page": 31,
+        "chapter": "Capitolul 2 – Fitness & Culturism"
+      }
+    },
+    {
+      "id": "fit2-042",
+      "categoryId": "antrenor-personal",
+      "type": "multiple-choice",
+      "question": "Care dintre următoarele sunt caracteristici ale unui antrenor personal profesionist?",
+      "answers": [
+        {
+          "id": "fit2-042-a1",
+          "text": "Seriozitate"
+        },
+        {
+          "id": "fit2-042-a2",
+          "text": "Responsabilitate"
+        },
+        {
+          "id": "fit2-042-a3",
+          "text": "Calificare și cunoștințe de specialitate"
+        },
+        {
+          "id": "fit2-042-a4",
+          "text": "Promisiunea unor rezultate garantate imediat"
+        }
+      ],
+      "correctAnswerIds": [
+        "fit2-042-a1",
+        "fit2-042-a2",
+        "fit2-042-a3"
+      ],
+      "explanation": "Manualul subliniază calificarea, cunoștințele, seriozitatea și responsabilitatea.",
+      "image": null,
+      "difficulty": "hard",
+      "source": {
+        "document": "Manual Curs Instructor Fitness – Personal Trainer – Fitness Education School",
+        "page": 33,
+        "chapter": "Capitolul 2 – Fitness & Culturism"
+      }
+    },
+    {
+      "id": "fit2-043",
+      "categoryId": "metodologie",
+      "type": "multiple-choice",
+      "question": "Ce afirmații despre exercițiile de bază și cele de izolare sunt corecte?",
+      "answers": [
+        {
+          "id": "fit2-043-a1",
+          "text": "Exercițiile de bază implică două sau mai multe articulații"
+        },
+        {
+          "id": "fit2-043-a2",
+          "text": "Exercițiile de izolare implică, în principiu, o singură grupă musculară"
+        },
+        {
+          "id": "fit2-043-a3",
+          "text": "Exercițiile de bază pot implica mușchi principali și secundari"
+        },
+        {
+          "id": "fit2-043-a4",
+          "text": "Exercițiile de izolare implică întotdeauna cele mai mari greutăți"
+        }
+      ],
+      "correctAnswerIds": [
+        "fit2-043-a1",
+        "fit2-043-a2",
+        "fit2-043-a3"
+      ],
+      "explanation": "Aceste caracteristici sunt descrise în secțiunea despre metodologia antrenamentului.",
+      "image": null,
+      "difficulty": "hard",
+      "source": {
+        "document": "Manual Curs Instructor Fitness – Personal Trainer – Fitness Education School",
+        "page": 34,
+        "chapter": "Capitolul 2 – Fitness & Culturism"
+      }
+    },
+    {
+      "id": "fit2-044",
+      "categoryId": "antrenor-personal",
+      "type": "multiple-choice",
+      "question": "Ce poate contribui la o ședință de antrenament adecvată?",
+      "answers": [
+        {
+          "id": "fit2-044-a1",
+          "text": "Intensitate adaptată practicantului"
+        },
+        {
+          "id": "fit2-044-a2",
+          "text": "Organizare sigură și eficace"
+        },
+        {
+          "id": "fit2-044-a3",
+          "text": "Luarea în considerare a obiectivului"
+        },
+        {
+          "id": "fit2-044-a4",
+          "text": "Aplicarea automată a aceleiași intensități tuturor"
+        }
+      ],
+      "correctAnswerIds": [
+        "fit2-044-a1",
+        "fit2-044-a2",
+        "fit2-044-a3"
+      ],
+      "explanation": "Antrenamentul trebuie adaptat persoanei, organizat eficace și desfășurat în siguranță.",
+      "image": null,
+      "difficulty": "hard",
+      "source": {
+        "document": "Manual Curs Instructor Fitness – Personal Trainer – Fitness Education School",
+        "page": 31,
+        "chapter": "Capitolul 2 – Fitness & Culturism"
+      }
+    },
+    {
+      "id": "fit2-045",
+      "categoryId": "partener",
+      "type": "multiple-choice",
+      "question": "Care dintre următoarele sunt descrise ca beneficii posibile ale partenerului de antrenament?",
+      "answers": [
+        {
+          "id": "fit2-045-a1",
+          "text": "Motivație suplimentară"
+        },
+        {
+          "id": "fit2-045-a2",
+          "text": "Feedback privind execuția"
+        },
+        {
+          "id": "fit2-045-a3",
+          "text": "Sprijin pentru siguranță la unele exerciții"
+        },
+        {
+          "id": "fit2-045-a4",
+          "text": "Înlocuirea permanentă a planificării și a antrenorului"
+        }
+      ],
+      "correctAnswerIds": [
+        "fit2-045-a1",
+        "fit2-045-a2",
+        "fit2-045-a3"
+      ],
+      "explanation": "Partenerul poate motiva, corecta mișcarea și ajuta la siguranță.",
+      "image": null,
+      "difficulty": "hard",
+      "source": {
+        "document": "Manual Curs Instructor Fitness – Personal Trainer – Fitness Education School",
+        "page": 48,
+        "chapter": "Capitolul 2 – Fitness & Culturism"
+      }
+    },
+    {
+      "id": "fit2-046",
+      "categoryId": "metodologie",
+      "type": "multiple-choice",
+      "question": "Ce elemente sunt menționate ca importante pentru evoluția sportivă?",
+      "answers": [
+        {
+          "id": "fit2-046-a1",
+          "text": "Antrenamentul"
+        },
+        {
+          "id": "fit2-046-a2",
+          "text": "Nutriția"
+        },
+        {
+          "id": "fit2-046-a3",
+          "text": "Geneticul și atitudinea față de sport"
+        },
+        {
+          "id": "fit2-046-a4",
+          "text": "Eliminarea odihnei"
+        }
+      ],
+      "correctAnswerIds": [
+        "fit2-046-a1",
+        "fit2-046-a2",
+        "fit2-046-a3"
+      ],
+      "explanation": "Capitolul enumeră antrenamentul, nutriția, geneticul și atitudinea față de sport.",
+      "image": null,
+      "difficulty": "hard",
+      "source": {
+        "document": "Manual Curs Instructor Fitness – Personal Trainer – Fitness Education School",
+        "page": 48,
+        "chapter": "Capitolul 2 – Fitness & Culturism"
+      }
+    },
+    {
+      "id": "fit2-047",
+      "categoryId": "metodologie",
+      "type": "multiple-choice",
+      "question": "Ce poate varia modul de solicitare a mușchiului în timpul unui exercițiu?",
+      "answers": [
+        {
+          "id": "fit2-047-a1",
+          "text": "Unghiul de efectuare a mișcării"
+        },
+        {
+          "id": "fit2-047-a2",
+          "text": "Priza de prindere a barei"
+        },
+        {
+          "id": "fit2-047-a3",
+          "text": "Unghiul spătarului băncii, în exemplul din manual"
+        },
+        {
+          "id": "fit2-047-a4",
+          "text": "Culoarea discurilor"
+        }
+      ],
+      "correctAnswerIds": [
+        "fit2-047-a1",
+        "fit2-047-a2",
+        "fit2-047-a3"
+      ],
+      "explanation": "Manualul oferă exemple privind unghiurile și prizele pentru modificarea solicitării.",
+      "image": null,
+      "difficulty": "hard",
+      "source": {
+        "document": "Manual Curs Instructor Fitness – Personal Trainer – Fitness Education School",
+        "page": 47,
+        "chapter": "Capitolul 2 – Fitness & Culturism"
+      }
+    },
+    {
+      "id": "fit2-048",
+      "categoryId": "antrenor-personal",
+      "type": "multiple-choice",
+      "question": "Ce trebuie să ia în considerare planul nutrițional descris în capitol?",
+      "answers": [
+        {
+          "id": "fit2-048-a1",
+          "text": "Obiectivul propus"
+        },
+        {
+          "id": "fit2-048-a2",
+          "text": "Obiceiurile alimentare existente"
+        },
+        {
+          "id": "fit2-048-a3",
+          "text": "Eventualele afecțiuni"
+        },
+        {
+          "id": "fit2-048-a4",
+          "text": "Ignorarea contextului individual"
+        }
+      ],
+      "correctAnswerIds": [
+        "fit2-048-a1",
+        "fit2-048-a2",
+        "fit2-048-a3"
+      ],
+      "explanation": "Planul nutrițional este descris ca fiind adaptat obiectivului și situației practicantului.",
+      "image": null,
+      "difficulty": "hard",
+      "source": {
+        "document": "Manual Curs Instructor Fitness – Personal Trainer – Fitness Education School",
+        "page": 32,
+        "chapter": "Capitolul 2 – Fitness & Culturism"
+      }
+    },
+    {
+      "id": "fit2-049",
+      "categoryId": "metodologie",
+      "type": "multiple-choice",
+      "question": "Care afirmații despre exercițiile de bază și izolare sunt conforme manualului?",
+      "answers": [
+        {
+          "id": "fit2-049-a1",
+          "text": "Exercițiile de bază sunt adesea plasate înaintea celor de izolare"
+        },
+        {
+          "id": "fit2-049-a2",
+          "text": "Exercițiile de izolare pot preceda un exercițiu de bază în metoda pre-obosirii"
+        },
+        {
+          "id": "fit2-049-a3",
+          "text": "Combinarea tipurilor de exerciții permite diferite variante de organizare"
+        },
+        {
+          "id": "fit2-049-a4",
+          "text": "Cele două tipuri nu pot apărea în același program"
+        }
+      ],
+      "correctAnswerIds": [
+        "fit2-049-a1",
+        "fit2-049-a2",
+        "fit2-049-a3"
+      ],
+      "explanation": "Manualul descrie ordinea uzuală și tehnica de pre-obosire, precum și posibilitatea combinării.",
+      "image": null,
+      "difficulty": "hard",
+      "source": {
+        "document": "Manual Curs Instructor Fitness – Personal Trainer – Fitness Education School",
+        "page": 34,
+        "chapter": "Capitolul 2 – Fitness & Culturism"
+      }
+    },
+    {
+      "id": "fit2-050",
+      "categoryId": "antrenor-personal",
+      "type": "multiple-choice",
+      "question": "Ce ar trebui să caracterizeze colaborarea cu un antrenor personal?",
+      "answers": [
+        {
+          "id": "fit2-050-a1",
+          "text": "Claritate asupra condițiilor colaborării"
+        },
+        {
+          "id": "fit2-050-a2",
+          "text": "Atenție la calificări și referințe"
+        },
+        {
+          "id": "fit2-050-a3",
+          "text": "Seriozitate și responsabilitate"
+        },
+        {
+          "id": "fit2-050-a4",
+          "text": "Acceptarea automată a oricărei promisiuni"
+        }
+      ],
+      "correctAnswerIds": [
+        "fit2-050-a1",
+        "fit2-050-a2",
+        "fit2-050-a3"
+      ],
+      "explanation": "Aceste recomandări sunt prezentate în secțiunea despre alegerea și profesionalismul antrenorului.",
+      "image": null,
+      "difficulty": "hard",
+      "source": {
+        "document": "Manual Curs Instructor Fitness – Personal Trainer – Fitness Education School",
+        "page": 33,
+        "chapter": "Capitolul 2 – Fitness & Culturism"
+      }
+    }
+  ]
+}

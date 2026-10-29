@@ -503,52 +503,63 @@ ngOnInit(): void {
   });
 }
 
+
 private async loadInitialPackage(): Promise<void> {
   try {
+    const bundledPackagePaths = [
+      '/exam-packages/examflow-instructor-fitness-anatomie-capitolul-1.json',
+      '/exam-packages/examflow-instructor-fitness-capitolul-2.json',
+    ];
+
+    const bundledPackages = await Promise.all(
+      bundledPackagePaths.map((path) =>
+        this.examPackageService.loadPackage(path),
+      ),
+    );
+
     const importedPackages = this.importedPackageService.loadAll();
-    this.importedPackages = importedPackages;
 
-    let examPackage: ExamPackage;
+    // Examenele incluse în aplicație au prioritate la ID-uri duplicate.
+    const packagesById = new Map<string, ExamPackage>();
 
-const selectedExamId = this.importedPackageService.loadSelectedExamId();
+    for (const examPackage of importedPackages) {
+      packagesById.set(examPackage.exam.id, examPackage);
+    }
 
-const selectedPackage = selectedExamId
-  ? importedPackages.find(
-      (item) => item.exam.id === selectedExamId,
-    )
-  : undefined;
+    for (const examPackage of bundledPackages) {
+      packagesById.set(examPackage.exam.id, examPackage);
+    }
 
-if (selectedPackage) {
-  examPackage = await this.examPackageService.importPackage(
-    new File(
-      [JSON.stringify(selectedPackage)],
-      'saved-exam.json',
-      { type: 'application/json' },
-    ),
-  );
-} else if (importedPackages.length > 0) {
-  const lastImportedPackage = importedPackages[importedPackages.length - 1];
+    this.importedPackages = Array.from(packagesById.values());
 
-  examPackage = await this.examPackageService.importPackage(
-    new File(
-      [JSON.stringify(lastImportedPackage)],
-      'saved-exam.json',
-      { type: 'application/json' },
-    ),
-  );
-} else {
-  examPackage = await this.examPackageService.loadPackage(
-    '/exam-packages/instructor-fitness.json',
-  );
-}
+    const selectedExamId =
+      this.importedPackageService.loadSelectedExamId();
+
+    const selectedPackage = selectedExamId
+      ? this.importedPackages.find(
+          (item) => item.exam.id === selectedExamId,
+        )
+      : undefined;
+
+    const examPackage =
+      selectedPackage ??
+      bundledPackages[0];
 
     this.examPackage = examPackage;
-    this.examHistory = this.examHistoryService.load(examPackage.exam.id);
+    this.examHistory = this.examHistoryService.load(
+      examPackage.exam.id,
+    );
 
-    const savedProgress = this.progressService.load(examPackage.exam.id);
+    const savedProgress = this.progressService.load(
+      examPackage.exam.id,
+    );
 
-    for (const [questionId, answer] of Object.entries(savedProgress.answers)) {
-      this.selectedAnswers[questionId] = [...answer.selectedAnswerIds];
+    for (const [questionId, answer] of Object.entries(
+      savedProgress.answers,
+    )) {
+      this.selectedAnswers[questionId] = [
+        ...answer.selectedAnswerIds,
+      ];
       this.answeredQuestions[questionId] = true;
       this.correctQuestions[questionId] = answer.isCorrect;
     }
@@ -569,8 +580,12 @@ if (selectedPackage) {
   }
 }
 
+
+
 protected selectImportedPackage(examId: string): void {
-  const examPackage = this.importedPackageService.findById(examId);
+  const examPackage =
+    this.importedPackages.find((item) => item.exam.id === examId) ??
+    this.importedPackageService.findById(examId);
 
   if (!examPackage) {
     this.errorMessage = 'Examenul selectat nu a fost găsit.';
@@ -585,11 +600,13 @@ protected selectImportedPackage(examId: string): void {
   this.examSession = null;
   this.errorMessage = '';
   this.importMessage = '';
+
   this.selectedAnswersClear();
   this.refreshProgress();
 
   this.cdr.detectChanges();
 }
+
 
 private selectedAnswersClear(): void {
   for (const questionId of Object.keys(this.selectedAnswers)) {

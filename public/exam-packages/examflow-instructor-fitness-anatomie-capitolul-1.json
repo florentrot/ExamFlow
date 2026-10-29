@@ -1,0 +1,1766 @@
+{
+  "schemaVersion": 1,
+  "exam": {
+    "id": "instructor-fitness-anatomie-capitolul-1",
+    "title": "Instructor Fitness – Anatomie umană",
+    "description": "50 de întrebări bazate pe Capitolul 1, „Anatomia umană – aspecte generale”, din manualul Fitness Education School. Paginile sursă sunt numerele tipărite în manual.",
+    "categories": [
+      {
+        "id": "sistem-muscular",
+        "name": "Sistemul muscular",
+        "description": "Tipuri, funcții, structură, proprietăți și grupe musculare."
+      },
+      {
+        "id": "sistem-osos",
+        "name": "Sistemul osos",
+        "description": "Clasificarea oaselor, scheletul axial și al membrelor."
+      },
+      {
+        "id": "articulatii",
+        "name": "Articulații",
+        "description": "Mobilitatea și structurile articulațiilor."
+      }
+    ],
+    "settings": {
+      "questionsPerSimulation": 20,
+      "timeLimitMinutes": 30,
+      "passPercentage": 70,
+      "randomizeQuestions": true,
+      "randomizeAnswers": true
+    }
+  },
+  "questions": [
+    {
+      "id": "anat-001",
+      "categoryId": "sistem-muscular",
+      "type": "single-choice",
+      "question": "Aproximativ ce procent din greutatea totală a corpului reprezintă mușchii, conform manualului?",
+      "answers": [
+        {
+          "id": "anat-001-a1",
+          "text": "10–15%"
+        },
+        {
+          "id": "anat-001-a2",
+          "text": "20–25%"
+        },
+        {
+          "id": "anat-001-a3",
+          "text": "40–45%"
+        },
+        {
+          "id": "anat-001-a4",
+          "text": "60–65%"
+        }
+      ],
+      "correctAnswerIds": [
+        "anat-001-a3"
+      ],
+      "explanation": "Manualul indică aproximativ 40–45% din greutatea totală a corpului.",
+      "image": null,
+      "difficulty": "easy",
+      "source": {
+        "document": "Manual Curs Instructor Fitness - Personal Trainer - Fitness Education School.pdf",
+        "page": 12
+      }
+    },
+    {
+      "id": "anat-002",
+      "categoryId": "sistem-muscular",
+      "type": "single-choice",
+      "question": "Care este funcția principală a țesutului muscular menționată în manual?",
+      "answers": [
+        {
+          "id": "anat-002-a1",
+          "text": "Producerea hormonilor"
+        },
+        {
+          "id": "anat-002-a2",
+          "text": "Realizarea mișcării"
+        },
+        {
+          "id": "anat-002-a3",
+          "text": "Filtrarea sângelui"
+        },
+        {
+          "id": "anat-002-a4",
+          "text": "Formarea cartilajului"
+        }
+      ],
+      "correctAnswerIds": [
+        "anat-002-a2"
+      ],
+      "explanation": "Țesutul muscular este specializat în realizarea mișcării.",
+      "image": null,
+      "difficulty": "easy",
+      "source": {
+        "document": "Manual Curs Instructor Fitness - Personal Trainer - Fitness Education School.pdf",
+        "page": 12
+      }
+    },
+    {
+      "id": "anat-003",
+      "categoryId": "sistem-muscular",
+      "type": "multiple-choice",
+      "question": "Care sunt cele trei tipuri de mușchi enumerate în manual?",
+      "answers": [
+        {
+          "id": "anat-003-a1",
+          "text": "Scheletici sau striați"
+        },
+        {
+          "id": "anat-003-a2",
+          "text": "Netezi sau viscerali"
+        },
+        {
+          "id": "anat-003-a3",
+          "text": "Cardiaci"
+        },
+        {
+          "id": "anat-003-a4",
+          "text": "Limfatici"
+        }
+      ],
+      "correctAnswerIds": [
+        "anat-003-a1",
+        "anat-003-a2",
+        "anat-003-a3"
+      ],
+      "explanation": "Manualul enumeră mușchii scheletici, netezi și cardiaci.",
+      "image": null,
+      "difficulty": "easy",
+      "source": {
+        "document": "Manual Curs Instructor Fitness - Personal Trainer - Fitness Education School.pdf",
+        "page": 12
+      }
+    },
+    {
+      "id": "anat-004",
+      "categoryId": "sistem-muscular",
+      "type": "single-choice",
+      "question": "Mușchii scheletici sunt descriși ca fiind:",
+      "answers": [
+        {
+          "id": "anat-004-a1",
+          "text": "Involuntari și neatașați de oase"
+        },
+        {
+          "id": "anat-004-a2",
+          "text": "Voluntari și atașați de oase"
+        },
+        {
+          "id": "anat-004-a3",
+          "text": "Netezi și exclusiv în organe"
+        },
+        {
+          "id": "anat-004-a4",
+          "text": "Prezenți exclusiv în inimă"
+        }
+      ],
+      "correctAnswerIds": [
+        "anat-004-a2"
+      ],
+      "explanation": "Mușchii scheletici sunt voluntari, se inseră pe oase și realizează mișcarea.",
+      "image": null,
+      "difficulty": "easy",
+      "source": {
+        "document": "Manual Curs Instructor Fitness - Personal Trainer - Fitness Education School.pdf",
+        "page": 12
+      }
+    },
+    {
+      "id": "anat-005",
+      "categoryId": "sistem-muscular",
+      "type": "single-choice",
+      "question": "Ce filamente sunt asociate cu aspectul striat al fibrelor musculare?",
+      "answers": [
+        {
+          "id": "anat-005-a1",
+          "text": "Colagen și elastină"
+        },
+        {
+          "id": "anat-005-a2",
+          "text": "Actină și miozină"
+        },
+        {
+          "id": "anat-005-a3",
+          "text": "Oseină și keratină"
+        },
+        {
+          "id": "anat-005-a4",
+          "text": "Calciu și fosfor"
+        }
+      ],
+      "correctAnswerIds": [
+        "anat-005-a2"
+      ],
+      "explanation": "Manualul leagă aspectul striat de filamentele de actină și miozină.",
+      "image": null,
+      "difficulty": "medium",
+      "source": {
+        "document": "Manual Curs Instructor Fitness - Personal Trainer - Fitness Education School.pdf",
+        "page": 12
+      }
+    },
+    {
+      "id": "anat-006",
+      "categoryId": "sistem-muscular",
+      "type": "single-choice",
+      "question": "Cum numește manualul inserția mușchiului scheletic pe osul mai fix?",
+      "answers": [
+        {
+          "id": "anat-006-a1",
+          "text": "Inserție"
+        },
+        {
+          "id": "anat-006-a2",
+          "text": "Origine"
+        },
+        {
+          "id": "anat-006-a3",
+          "text": "Sarcomer"
+        },
+        {
+          "id": "anat-006-a4",
+          "text": "Apofiză"
+        }
+      ],
+      "correctAnswerIds": [
+        "anat-006-a2"
+      ],
+      "explanation": "În terminologia manualului, capătul de pe osul mai fix este originea mușchiului.",
+      "image": null,
+      "difficulty": "medium",
+      "source": {
+        "document": "Manual Curs Instructor Fitness - Personal Trainer - Fitness Education School.pdf",
+        "page": 12
+      }
+    },
+    {
+      "id": "anat-007",
+      "categoryId": "sistem-muscular",
+      "type": "single-choice",
+      "question": "Ce reprezintă tonusul muscular?",
+      "answers": [
+        {
+          "id": "anat-007-a1",
+          "text": "Contracția maximă în efort"
+        },
+        {
+          "id": "anat-007-a2",
+          "text": "Contracția parțială prezentă în repaus"
+        },
+        {
+          "id": "anat-007-a3",
+          "text": "Relaxarea permanentă"
+        },
+        {
+          "id": "anat-007-a4",
+          "text": "Răspunsul la un stimul"
+        }
+      ],
+      "correctAnswerIds": [
+        "anat-007-a2"
+      ],
+      "explanation": "Tonusul muscular este starea de contracție parțială prezentă în mușchi în repaus.",
+      "image": null,
+      "difficulty": "easy",
+      "source": {
+        "document": "Manual Curs Instructor Fitness - Personal Trainer - Fitness Education School.pdf",
+        "page": 13
+      }
+    },
+    {
+      "id": "anat-008",
+      "categoryId": "sistem-muscular",
+      "type": "multiple-choice",
+      "question": "Care sunt funcțiile mușchilor scheletici enumerate în manual?",
+      "answers": [
+        {
+          "id": "anat-008-a1",
+          "text": "Mișcarea"
+        },
+        {
+          "id": "anat-008-a2",
+          "text": "Menținerea posturii"
+        },
+        {
+          "id": "anat-008-a3",
+          "text": "Producerea de căldură"
+        },
+        {
+          "id": "anat-008-a4",
+          "text": "Producerea bilei"
+        }
+      ],
+      "correctAnswerIds": [
+        "anat-008-a1",
+        "anat-008-a2",
+        "anat-008-a3"
+      ],
+      "explanation": "Manualul enumeră mișcarea, menținerea posturii și producerea de căldură.",
+      "image": null,
+      "difficulty": "easy",
+      "source": {
+        "document": "Manual Curs Instructor Fitness - Personal Trainer - Fitness Education School.pdf",
+        "page": 13
+      }
+    },
+    {
+      "id": "anat-009",
+      "categoryId": "sistem-muscular",
+      "type": "single-choice",
+      "question": "Ce controlează activitatea mușchilor netezi?",
+      "answers": [
+        {
+          "id": "anat-009-a1",
+          "text": "Sistemul nervos autonom"
+        },
+        {
+          "id": "anat-009-a2",
+          "text": "Doar voința conștientă"
+        },
+        {
+          "id": "anat-009-a3",
+          "text": "Sistemul osos"
+        },
+        {
+          "id": "anat-009-a4",
+          "text": "Tendoanele"
+        }
+      ],
+      "correctAnswerIds": [
+        "anat-009-a1"
+      ],
+      "explanation": "Activitatea mușchilor netezi este controlată de sistemul nervos autonom.",
+      "image": null,
+      "difficulty": "easy",
+      "source": {
+        "document": "Manual Curs Instructor Fitness - Personal Trainer - Fitness Education School.pdf",
+        "page": 13
+      }
+    },
+    {
+      "id": "anat-010",
+      "categoryId": "sistem-muscular",
+      "type": "multiple-choice",
+      "question": "În care dintre structurile enumerate se găsesc mușchi netezi?",
+      "answers": [
+        {
+          "id": "anat-010-a1",
+          "text": "Stomac"
+        },
+        {
+          "id": "anat-010-a2",
+          "text": "Intestine"
+        },
+        {
+          "id": "anat-010-a3",
+          "text": "Vase de sânge"
+        },
+        {
+          "id": "anat-010-a4",
+          "text": "Oase carpiene"
+        }
+      ],
+      "correctAnswerIds": [
+        "anat-010-a1",
+        "anat-010-a2",
+        "anat-010-a3"
+      ],
+      "explanation": "Manualul menționează mușchi netezi în stomac, intestine și vase de sânge.",
+      "image": null,
+      "difficulty": "easy",
+      "source": {
+        "document": "Manual Curs Instructor Fitness - Personal Trainer - Fitness Education School.pdf",
+        "page": 13
+      }
+    },
+    {
+      "id": "anat-011",
+      "categoryId": "sistem-muscular",
+      "type": "single-choice",
+      "question": "Unde se găsește exclusiv mușchiul cardiac?",
+      "answers": [
+        {
+          "id": "anat-011-a1",
+          "text": "În stomac"
+        },
+        {
+          "id": "anat-011-a2",
+          "text": "În inimă"
+        },
+        {
+          "id": "anat-011-a3",
+          "text": "În tendoane"
+        },
+        {
+          "id": "anat-011-a4",
+          "text": "În articulațiile vertebrale"
+        }
+      ],
+      "correctAnswerIds": [
+        "anat-011-a2"
+      ],
+      "explanation": "Mușchiul cardiac se găsește exclusiv la nivelul inimii.",
+      "image": null,
+      "difficulty": "easy",
+      "source": {
+        "document": "Manual Curs Instructor Fitness - Personal Trainer - Fitness Education School.pdf",
+        "page": 14
+      }
+    },
+    {
+      "id": "anat-012",
+      "categoryId": "sistem-muscular",
+      "type": "single-choice",
+      "question": "Cum sunt descriși mușchii cardiaci în privința controlului?",
+      "answers": [
+        {
+          "id": "anat-012-a1",
+          "text": "Voluntari"
+        },
+        {
+          "id": "anat-012-a2",
+          "text": "Involuntari"
+        },
+        {
+          "id": "anat-012-a3",
+          "text": "Controlați numai de tendoane"
+        },
+        {
+          "id": "anat-012-a4",
+          "text": "Fără capacitate de contracție"
+        }
+      ],
+      "correctAnswerIds": [
+        "anat-012-a2"
+      ],
+      "explanation": "Mușchii cardiaci sunt striați, cu celule ramificate și involuntari.",
+      "image": null,
+      "difficulty": "easy",
+      "source": {
+        "document": "Manual Curs Instructor Fitness - Personal Trainer - Fitness Education School.pdf",
+        "page": 14
+      }
+    },
+    {
+      "id": "anat-013",
+      "categoryId": "sistem-muscular",
+      "type": "single-choice",
+      "question": "Care este unitatea contractilă a mușchiului scheletic?",
+      "answers": [
+        {
+          "id": "anat-013-a1",
+          "text": "Epifiza"
+        },
+        {
+          "id": "anat-013-a2",
+          "text": "Sarcomerul"
+        },
+        {
+          "id": "anat-013-a3",
+          "text": "Periostul"
+        },
+        {
+          "id": "anat-013-a4",
+          "text": "Sinovia"
+        }
+      ],
+      "correctAnswerIds": [
+        "anat-013-a2"
+      ],
+      "explanation": "Porțiunea dintre două benzi Z este sarcomerul, unitatea contractilă.",
+      "image": null,
+      "difficulty": "medium",
+      "source": {
+        "document": "Manual Curs Instructor Fitness - Personal Trainer - Fitness Education School.pdf",
+        "page": 14
+      }
+    },
+    {
+      "id": "anat-014",
+      "categoryId": "sistem-muscular",
+      "type": "single-choice",
+      "question": "Ce se întâmplă cu sarcomerul în timpul contracției musculare?",
+      "answers": [
+        {
+          "id": "anat-014-a1",
+          "text": "Se lungește permanent"
+        },
+        {
+          "id": "anat-014-a2",
+          "text": "Se scurtează când miofilamentele alunecă unele către celelalte"
+        },
+        {
+          "id": "anat-014-a3",
+          "text": "Se transformă în tendon"
+        },
+        {
+          "id": "anat-014-a4",
+          "text": "Își pierde actina"
+        }
+      ],
+      "correctAnswerIds": [
+        "anat-014-a2"
+      ],
+      "explanation": "Miofilamentele alunecă unele către celelalte, iar sarcomerul se scurtează.",
+      "image": null,
+      "difficulty": "medium",
+      "source": {
+        "document": "Manual Curs Instructor Fitness - Personal Trainer - Fitness Education School.pdf",
+        "page": 14
+      }
+    },
+    {
+      "id": "anat-015",
+      "categoryId": "sistem-muscular",
+      "type": "multiple-choice",
+      "question": "De ce este nevoie pentru desfășurarea normală a contracției musculare, potrivit manualului?",
+      "answers": [
+        {
+          "id": "anat-015-a1",
+          "text": "Calciu"
+        },
+        {
+          "id": "anat-015-a2",
+          "text": "Energie obținută prin scindarea ATP"
+        },
+        {
+          "id": "anat-015-a3",
+          "text": "Doar fosfați din os"
+        },
+        {
+          "id": "anat-015-a4",
+          "text": "Eliminarea miofilamentelor"
+        }
+      ],
+      "correctAnswerIds": [
+        "anat-015-a1",
+        "anat-015-a2"
+      ],
+      "explanation": "Manualul menționează calciul și energia obținută prin scindarea ATP.",
+      "image": null,
+      "difficulty": "medium",
+      "source": {
+        "document": "Manual Curs Instructor Fitness - Personal Trainer - Fitness Education School.pdf",
+        "page": 14
+      }
+    },
+    {
+      "id": "anat-016",
+      "categoryId": "sistem-muscular",
+      "type": "single-choice",
+      "question": "Ce înseamnă contractilitatea fibrei musculare?",
+      "answers": [
+        {
+          "id": "anat-016-a1",
+          "text": "Revenirea la lungimea inițială"
+        },
+        {
+          "id": "anat-016-a2",
+          "text": "Răspunsul la stimul"
+        },
+        {
+          "id": "anat-016-a3",
+          "text": "Capacitatea de a-și scurta lungimea"
+        },
+        {
+          "id": "anat-016-a4",
+          "text": "Capacitatea de a se întinde"
+        }
+      ],
+      "correctAnswerIds": [
+        "anat-016-a3"
+      ],
+      "explanation": "Contractilitatea este capacitatea mușchiului de a-și scurta lungimea.",
+      "image": null,
+      "difficulty": "easy",
+      "source": {
+        "document": "Manual Curs Instructor Fitness - Personal Trainer - Fitness Education School.pdf",
+        "page": 15
+      }
+    },
+    {
+      "id": "anat-017",
+      "categoryId": "sistem-muscular",
+      "type": "single-choice",
+      "question": "Ce proprietate descrie capacitatea fibrei musculare de a-și mări lungimea?",
+      "answers": [
+        {
+          "id": "anat-017-a1",
+          "text": "Elasticitatea"
+        },
+        {
+          "id": "anat-017-a2",
+          "text": "Extensibilitatea"
+        },
+        {
+          "id": "anat-017-a3",
+          "text": "Excitabilitatea"
+        },
+        {
+          "id": "anat-017-a4",
+          "text": "Contractilitatea"
+        }
+      ],
+      "correctAnswerIds": [
+        "anat-017-a2"
+      ],
+      "explanation": "Extensibilitatea este capacitatea fibrei de a se întinde.",
+      "image": null,
+      "difficulty": "easy",
+      "source": {
+        "document": "Manual Curs Instructor Fitness - Personal Trainer - Fitness Education School.pdf",
+        "page": 15
+      }
+    },
+    {
+      "id": "anat-018",
+      "categoryId": "sistem-muscular",
+      "type": "single-choice",
+      "question": "Ce proprietate permite mușchiului să revină la lungimea inițială în relaxare?",
+      "answers": [
+        {
+          "id": "anat-018-a1",
+          "text": "Elasticitatea"
+        },
+        {
+          "id": "anat-018-a2",
+          "text": "Excitabilitatea"
+        },
+        {
+          "id": "anat-018-a3",
+          "text": "Extensibilitatea"
+        },
+        {
+          "id": "anat-018-a4",
+          "text": "Tonusul"
+        }
+      ],
+      "correctAnswerIds": [
+        "anat-018-a1"
+      ],
+      "explanation": "Elasticitatea este capacitatea de revenire la lungimea inițială.",
+      "image": null,
+      "difficulty": "easy",
+      "source": {
+        "document": "Manual Curs Instructor Fitness - Personal Trainer - Fitness Education School.pdf",
+        "page": 15
+      }
+    },
+    {
+      "id": "anat-019",
+      "categoryId": "sistem-muscular",
+      "type": "single-choice",
+      "question": "Ce este excitabilitatea fibrei musculare?",
+      "answers": [
+        {
+          "id": "anat-019-a1",
+          "text": "Capacitatea de a răspunde la un stimul"
+        },
+        {
+          "id": "anat-019-a2",
+          "text": "Capacitatea de a produce os spongios"
+        },
+        {
+          "id": "anat-019-a3",
+          "text": "Secreția sinoviei"
+        },
+        {
+          "id": "anat-019-a4",
+          "text": "Formarea articulațiilor"
+        }
+      ],
+      "correctAnswerIds": [
+        "anat-019-a1"
+      ],
+      "explanation": "Excitabilitatea este proprietatea mușchiului de a răspunde la un stimul.",
+      "image": null,
+      "difficulty": "easy",
+      "source": {
+        "document": "Manual Curs Instructor Fitness - Personal Trainer - Fitness Education School.pdf",
+        "page": 15
+      }
+    },
+    {
+      "id": "anat-020",
+      "categoryId": "sistem-muscular",
+      "type": "single-choice",
+      "question": "Care mușchi are rolul de a flexa brațul și este antagonist cu tricepsul?",
+      "answers": [
+        {
+          "id": "anat-020-a1",
+          "text": "Deltoidul"
+        },
+        {
+          "id": "anat-020-a2",
+          "text": "Bicepsul"
+        },
+        {
+          "id": "anat-020-a3",
+          "text": "Trapezul"
+        },
+        {
+          "id": "anat-020-a4",
+          "text": "Dorsalul"
+        }
+      ],
+      "correctAnswerIds": [
+        "anat-020-a2"
+      ],
+      "explanation": "Manualul descrie bicepsul ca flexor al brațului, antagonist cu tricepsul.",
+      "image": null,
+      "difficulty": "easy",
+      "source": {
+        "document": "Manual Curs Instructor Fitness - Personal Trainer - Fitness Education School.pdf",
+        "page": 16
+      }
+    },
+    {
+      "id": "anat-021",
+      "categoryId": "sistem-muscular",
+      "type": "single-choice",
+      "question": "Din câte fascicule principale este alcătuit deltoidul, conform manualului?",
+      "answers": [
+        {
+          "id": "anat-021-a1",
+          "text": "Două"
+        },
+        {
+          "id": "anat-021-a2",
+          "text": "Trei"
+        },
+        {
+          "id": "anat-021-a3",
+          "text": "Patru"
+        },
+        {
+          "id": "anat-021-a4",
+          "text": "Șase"
+        }
+      ],
+      "correctAnswerIds": [
+        "anat-021-a2"
+      ],
+      "explanation": "Manualul distinge fasciculele anterior, lateral și posterior.",
+      "image": null,
+      "difficulty": "easy",
+      "source": {
+        "document": "Manual Curs Instructor Fitness - Personal Trainer - Fitness Education School.pdf",
+        "page": 16
+      }
+    },
+    {
+      "id": "anat-022",
+      "categoryId": "sistem-muscular",
+      "type": "single-choice",
+      "question": "Ce rol important este atribuit deltoidului?",
+      "answers": [
+        {
+          "id": "anat-022-a1",
+          "text": "Ridicarea brațului"
+        },
+        {
+          "id": "anat-022-a2",
+          "text": "Flexia degetelor piciorului"
+        },
+        {
+          "id": "anat-022-a3",
+          "text": "Formarea cutiei toracice"
+        },
+        {
+          "id": "anat-022-a4",
+          "text": "Protejarea măduvei spinării"
+        }
+      ],
+      "correctAnswerIds": [
+        "anat-022-a1"
+      ],
+      "explanation": "Deltoidul are un rol important în ridicarea brațului.",
+      "image": null,
+      "difficulty": "easy",
+      "source": {
+        "document": "Manual Curs Instructor Fitness - Personal Trainer - Fitness Education School.pdf",
+        "page": 16
+      }
+    },
+    {
+      "id": "anat-023",
+      "categoryId": "sistem-muscular",
+      "type": "multiple-choice",
+      "question": "Ce structuri sunt indicate ca puncte de prindere ale pectoralului?",
+      "answers": [
+        {
+          "id": "anat-023-a1",
+          "text": "Humerus"
+        },
+        {
+          "id": "anat-023-a2",
+          "text": "Claviculă"
+        },
+        {
+          "id": "anat-023-a3",
+          "text": "Coaste"
+        },
+        {
+          "id": "anat-023-a4",
+          "text": "Stern"
+        }
+      ],
+      "correctAnswerIds": [
+        "anat-023-a1",
+        "anat-023-a2",
+        "anat-023-a3",
+        "anat-023-a4"
+      ],
+      "explanation": "Manualul indică prinderi pe humerus, claviculă, coaste și stern.",
+      "image": null,
+      "difficulty": "medium",
+      "source": {
+        "document": "Manual Curs Instructor Fitness - Personal Trainer - Fitness Education School.pdf",
+        "page": 16
+      }
+    },
+    {
+      "id": "anat-024",
+      "categoryId": "sistem-muscular",
+      "type": "single-choice",
+      "question": "În câte fascicule principale este împărțit trapezul în manual?",
+      "answers": [
+        {
+          "id": "anat-024-a1",
+          "text": "Unul"
+        },
+        {
+          "id": "anat-024-a2",
+          "text": "Două"
+        },
+        {
+          "id": "anat-024-a3",
+          "text": "Trei"
+        },
+        {
+          "id": "anat-024-a4",
+          "text": "Cinci"
+        }
+      ],
+      "correctAnswerIds": [
+        "anat-024-a3"
+      ],
+      "explanation": "Manualul menționează trapezul superior, median și inferior.",
+      "image": null,
+      "difficulty": "easy",
+      "source": {
+        "document": "Manual Curs Instructor Fitness - Personal Trainer - Fitness Education School.pdf",
+        "page": 17
+      }
+    },
+    {
+      "id": "anat-025",
+      "categoryId": "sistem-muscular",
+      "type": "single-choice",
+      "question": "Ce rol principal este atribuit mușchiului numit „lungul șanțurilor vertebrale”?",
+      "answers": [
+        {
+          "id": "anat-025-a1",
+          "text": "Extinderea trunchiului spre înapoi"
+        },
+        {
+          "id": "anat-025-a2",
+          "text": "Flexia degetelor"
+        },
+        {
+          "id": "anat-025-a3",
+          "text": "Ridicarea piciorului pe vârfuri"
+        },
+        {
+          "id": "anat-025-a4",
+          "text": "Flexia antebrațului"
+        }
+      ],
+      "correctAnswerIds": [
+        "anat-025-a1"
+      ],
+      "explanation": "Manualul îi atribuie extensia trunchiului spre înapoi.",
+      "image": null,
+      "difficulty": "medium",
+      "source": {
+        "document": "Manual Curs Instructor Fitness - Personal Trainer - Fitness Education School.pdf",
+        "page": 17
+      }
+    },
+    {
+      "id": "anat-026",
+      "categoryId": "sistem-muscular",
+      "type": "single-choice",
+      "question": "Care este rolul oblicului extern descris în manual?",
+      "answers": [
+        {
+          "id": "anat-026-a1",
+          "text": "Rotirea laterală sau înclinarea trunchiului"
+        },
+        {
+          "id": "anat-026-a2",
+          "text": "Extensia cotului"
+        },
+        {
+          "id": "anat-026-a3",
+          "text": "Ridicarea călcâiului"
+        },
+        {
+          "id": "anat-026-a4",
+          "text": "Flexia palmei"
+        }
+      ],
+      "correctAnswerIds": [
+        "anat-026-a1"
+      ],
+      "explanation": "Oblicul extern participă la rotația laterală și înclinarea trunchiului.",
+      "image": null,
+      "difficulty": "medium",
+      "source": {
+        "document": "Manual Curs Instructor Fitness - Personal Trainer - Fitness Education School.pdf",
+        "page": 17
+      }
+    },
+    {
+      "id": "anat-027",
+      "categoryId": "sistem-muscular",
+      "type": "single-choice",
+      "question": "Ce funcție vizibilă principală este asociată cu drepții abdominali?",
+      "answers": [
+        {
+          "id": "anat-027-a1",
+          "text": "Apropierea osului pelvian de stern"
+        },
+        {
+          "id": "anat-027-a2",
+          "text": "Extensia cotului"
+        },
+        {
+          "id": "anat-027-a3",
+          "text": "Rotația antebrațului"
+        },
+        {
+          "id": "anat-027-a4",
+          "text": "Ridicarea scapulei"
+        }
+      ],
+      "correctAnswerIds": [
+        "anat-027-a1"
+      ],
+      "explanation": "Manualul descrie apropierea osului pelvian de stern ca funcție vizibilă principală.",
+      "image": null,
+      "difficulty": "medium",
+      "source": {
+        "document": "Manual Curs Instructor Fitness - Personal Trainer - Fitness Education School.pdf",
+        "page": 17
+      }
+    },
+    {
+      "id": "anat-028",
+      "categoryId": "sistem-muscular",
+      "type": "single-choice",
+      "question": "Ce mușchi ajută la ridicarea piciorului pe vârfuri?",
+      "answers": [
+        {
+          "id": "anat-028-a1",
+          "text": "Bicepsul"
+        },
+        {
+          "id": "anat-028-a2",
+          "text": "Gemenii"
+        },
+        {
+          "id": "anat-028-a3",
+          "text": "Trapezul"
+        },
+        {
+          "id": "anat-028-a4",
+          "text": "Deltoidul"
+        }
+      ],
+      "correctAnswerIds": [
+        "anat-028-a2"
+      ],
+      "explanation": "Gemenii ajută la ridicarea piciorului pe vârfuri.",
+      "image": null,
+      "difficulty": "easy",
+      "source": {
+        "document": "Manual Curs Instructor Fitness - Personal Trainer - Fitness Education School.pdf",
+        "page": 18
+      }
+    },
+    {
+      "id": "anat-029",
+      "categoryId": "sistem-osos",
+      "type": "single-choice",
+      "question": "Ce rol atribuie manualul sistemului osos în aparatul locomotor?",
+      "answers": [
+        {
+          "id": "anat-029-a1",
+          "text": "Partea activă"
+        },
+        {
+          "id": "anat-029-a2",
+          "text": "Partea pasivă"
+        },
+        {
+          "id": "anat-029-a3",
+          "text": "Controlul voinței"
+        },
+        {
+          "id": "anat-029-a4",
+          "text": "Țesut contractil"
+        }
+      ],
+      "correctAnswerIds": [
+        "anat-029-a2"
+      ],
+      "explanation": "Scheletul reprezintă partea pasivă a aparatului locomotor.",
+      "image": null,
+      "difficulty": "easy",
+      "source": {
+        "document": "Manual Curs Instructor Fitness - Personal Trainer - Fitness Education School.pdf",
+        "page": 21
+      }
+    },
+    {
+      "id": "anat-030",
+      "categoryId": "sistem-osos",
+      "type": "single-choice",
+      "question": "Care sunt cele trei categorii principale de oase după dimensiuni?",
+      "answers": [
+        {
+          "id": "anat-030-a1",
+          "text": "Dense, poroase și elastice"
+        },
+        {
+          "id": "anat-030-a2",
+          "text": "Lungi, late și scurte"
+        },
+        {
+          "id": "anat-030-a3",
+          "text": "Axiale, voluntare și involuntare"
+        },
+        {
+          "id": "anat-030-a4",
+          "text": "Superioare, mediane și inferioare"
+        }
+      ],
+      "correctAnswerIds": [
+        "anat-030-a2"
+      ],
+      "explanation": "Manualul clasifică oasele în lungi, late și scurte.",
+      "image": null,
+      "difficulty": "easy",
+      "source": {
+        "document": "Manual Curs Instructor Fitness - Personal Trainer - Fitness Education School.pdf",
+        "page": 21
+      }
+    },
+    {
+      "id": "anat-031",
+      "categoryId": "sistem-osos",
+      "type": "single-choice",
+      "question": "Cum se numește corpul unui os lung?",
+      "answers": [
+        {
+          "id": "anat-031-a1",
+          "text": "Epifiză"
+        },
+        {
+          "id": "anat-031-a2",
+          "text": "Diafiză"
+        },
+        {
+          "id": "anat-031-a3",
+          "text": "Periost"
+        },
+        {
+          "id": "anat-031-a4",
+          "text": "Apofiză"
+        }
+      ],
+      "correctAnswerIds": [
+        "anat-031-a2"
+      ],
+      "explanation": "Corpul aproape cilindric al osului lung se numește diafiză.",
+      "image": null,
+      "difficulty": "easy",
+      "source": {
+        "document": "Manual Curs Instructor Fitness - Personal Trainer - Fitness Education School.pdf",
+        "page": 21
+      }
+    },
+    {
+      "id": "anat-032",
+      "categoryId": "sistem-osos",
+      "type": "single-choice",
+      "question": "Cum se numesc extremitățile mai voluminoase ale unui os lung?",
+      "answers": [
+        {
+          "id": "anat-032-a1",
+          "text": "Epifize"
+        },
+        {
+          "id": "anat-032-a2",
+          "text": "Diafize"
+        },
+        {
+          "id": "anat-032-a3",
+          "text": "Sarcomere"
+        },
+        {
+          "id": "anat-032-a4",
+          "text": "Sinartroze"
+        }
+      ],
+      "correctAnswerIds": [
+        "anat-032-a1"
+      ],
+      "explanation": "Extremitățile mai voluminoase ale osului lung se numesc epifize.",
+      "image": null,
+      "difficulty": "easy",
+      "source": {
+        "document": "Manual Curs Instructor Fitness - Personal Trainer - Fitness Education School.pdf",
+        "page": 21
+      }
+    },
+    {
+      "id": "anat-033",
+      "categoryId": "sistem-osos",
+      "type": "single-choice",
+      "question": "Ce rol al periostului este menționat în manual?",
+      "answers": [
+        {
+          "id": "anat-033-a1",
+          "text": "Creșterea osului în grosime și refacerea țesutului osos la fractură"
+        },
+        {
+          "id": "anat-033-a2",
+          "text": "Secreția lichidului sinovial"
+        },
+        {
+          "id": "anat-033-a3",
+          "text": "Contracția mușchilor"
+        },
+        {
+          "id": "anat-033-a4",
+          "text": "Formarea nervilor spinali"
+        }
+      ],
+      "correctAnswerIds": [
+        "anat-033-a1"
+      ],
+      "explanation": "Periostul participă la creșterea în grosime și refacerea țesutului osos.",
+      "image": null,
+      "difficulty": "medium",
+      "source": {
+        "document": "Manual Curs Instructor Fitness - Personal Trainer - Fitness Education School.pdf",
+        "page": 21
+      }
+    },
+    {
+      "id": "anat-034",
+      "categoryId": "sistem-osos",
+      "type": "single-choice",
+      "question": "Ce structură se găsește în interiorul epifizelor, potrivit manualului?",
+      "answers": [
+        {
+          "id": "anat-034-a1",
+          "text": "Os spongios format din lame osoase"
+        },
+        {
+          "id": "anat-034-a2",
+          "text": "Doar un canal central"
+        },
+        {
+          "id": "anat-034-a3",
+          "text": "Lichid sinovial"
+        },
+        {
+          "id": "anat-034-a4",
+          "text": "Filamente de actină"
+        }
+      ],
+      "correctAnswerIds": [
+        "anat-034-a1"
+      ],
+      "explanation": "În epifize, lamele osoase se încrucișează și formează osul spongios.",
+      "image": null,
+      "difficulty": "medium",
+      "source": {
+        "document": "Manual Curs Instructor Fitness - Personal Trainer - Fitness Education School.pdf",
+        "page": 22
+      }
+    },
+    {
+      "id": "anat-035",
+      "categoryId": "sistem-osos",
+      "type": "single-choice",
+      "question": "Ce tip de măduvă este indicat în canalul central al osului lung la adult?",
+      "answers": [
+        {
+          "id": "anat-035-a1",
+          "text": "Măduvă galbenă"
+        },
+        {
+          "id": "anat-035-a2",
+          "text": "Măduvă cenușie în toate cazurile"
+        },
+        {
+          "id": "anat-035-a3",
+          "text": "Măduvă exclusiv roșie"
+        },
+        {
+          "id": "anat-035-a4",
+          "text": "Nu există măduvă"
+        }
+      ],
+      "correctAnswerIds": [
+        "anat-035-a1"
+      ],
+      "explanation": "Manualul afirmă că la adult canalul central conține măduvă galbenă.",
+      "image": null,
+      "difficulty": "medium",
+      "source": {
+        "document": "Manual Curs Instructor Fitness - Personal Trainer - Fitness Education School.pdf",
+        "page": 22
+      }
+    },
+    {
+      "id": "anat-036",
+      "categoryId": "sistem-osos",
+      "type": "multiple-choice",
+      "question": "Ce elemente sunt incluse în scheletul trunchiului?",
+      "answers": [
+        {
+          "id": "anat-036-a1",
+          "text": "Coloana vertebrală"
+        },
+        {
+          "id": "anat-036-a2",
+          "text": "Sternul"
+        },
+        {
+          "id": "anat-036-a3",
+          "text": "Coastele"
+        },
+        {
+          "id": "anat-036-a4",
+          "text": "Pelvisul"
+        }
+      ],
+      "correctAnswerIds": [
+        "anat-036-a1",
+        "anat-036-a2",
+        "anat-036-a3",
+        "anat-036-a4"
+      ],
+      "explanation": "Manualul enumeră coloana vertebrală, sternul, coastele, pelvisul și articulațiile dintre ele.",
+      "image": null,
+      "difficulty": "easy",
+      "source": {
+        "document": "Manual Curs Instructor Fitness - Personal Trainer - Fitness Education School.pdf",
+        "page": 22
+      }
+    },
+    {
+      "id": "anat-037",
+      "categoryId": "sistem-osos",
+      "type": "single-choice",
+      "question": "Câte vertebre are coloana vertebrală, conform manualului?",
+      "answers": [
+        {
+          "id": "anat-037-a1",
+          "text": "12"
+        },
+        {
+          "id": "anat-037-a2",
+          "text": "24"
+        },
+        {
+          "id": "anat-037-a3",
+          "text": "33 sau 34"
+        },
+        {
+          "id": "anat-037-a4",
+          "text": "40 sau 42"
+        }
+      ],
+      "correctAnswerIds": [
+        "anat-037-a3"
+      ],
+      "explanation": "Manualul menționează 33 sau 34 de vertebre.",
+      "image": null,
+      "difficulty": "easy",
+      "source": {
+        "document": "Manual Curs Instructor Fitness - Personal Trainer - Fitness Education School.pdf",
+        "page": 22
+      }
+    },
+    {
+      "id": "anat-038",
+      "categoryId": "sistem-osos",
+      "type": "single-choice",
+      "question": "Ce structură adăpostește măduva spinării?",
+      "answers": [
+        {
+          "id": "anat-038-a1",
+          "text": "Canalul vertebral"
+        },
+        {
+          "id": "anat-038-a2",
+          "text": "Canalul central al osului lung"
+        },
+        {
+          "id": "anat-038-a3",
+          "text": "Cavitatea articulară"
+        },
+        {
+          "id": "anat-038-a4",
+          "text": "Membrana interosoasă"
+        }
+      ],
+      "correctAnswerIds": [
+        "anat-038-a1"
+      ],
+      "explanation": "Canalul vertebral adăpostește măduva spinării.",
+      "image": null,
+      "difficulty": "medium",
+      "source": {
+        "document": "Manual Curs Instructor Fitness - Personal Trainer - Fitness Education School.pdf",
+        "page": 24
+      }
+    },
+    {
+      "id": "anat-039",
+      "categoryId": "sistem-osos",
+      "type": "single-choice",
+      "question": "Prin ce orificii ies nervii spinali, conform manualului?",
+      "answers": [
+        {
+          "id": "anat-039-a1",
+          "text": "Orificiile intervertebrale"
+        },
+        {
+          "id": "anat-039-a2",
+          "text": "Cavitatea articulară"
+        },
+        {
+          "id": "anat-039-a3",
+          "text": "Canalul central al diafizei"
+        },
+        {
+          "id": "anat-039-a4",
+          "text": "Orificiile sternului"
+        }
+      ],
+      "correctAnswerIds": [
+        "anat-039-a1"
+      ],
+      "explanation": "Nervii spinali ies prin orificiile intervertebrale.",
+      "image": null,
+      "difficulty": "medium",
+      "source": {
+        "document": "Manual Curs Instructor Fitness - Personal Trainer - Fitness Education School.pdf",
+        "page": 24
+      }
+    },
+    {
+      "id": "anat-040",
+      "categoryId": "sistem-osos",
+      "type": "multiple-choice",
+      "question": "Care sunt regiunile coloanei vertebrale enumerate în manual?",
+      "answers": [
+        {
+          "id": "anat-040-a1",
+          "text": "Cervicală"
+        },
+        {
+          "id": "anat-040-a2",
+          "text": "Toracală"
+        },
+        {
+          "id": "anat-040-a3",
+          "text": "Lombară"
+        },
+        {
+          "id": "anat-040-a4",
+          "text": "Sacrală"
+        },
+        {
+          "id": "anat-040-a5",
+          "text": "Coccis"
+        }
+      ],
+      "correctAnswerIds": [
+        "anat-040-a1",
+        "anat-040-a2",
+        "anat-040-a3",
+        "anat-040-a4",
+        "anat-040-a5"
+      ],
+      "explanation": "Manualul enumeră regiunile cervicală, toracală, lombară, sacrală și coccisul.",
+      "image": null,
+      "difficulty": "easy",
+      "source": {
+        "document": "Manual Curs Instructor Fitness - Personal Trainer - Fitness Education School.pdf",
+        "page": 24
+      }
+    },
+    {
+      "id": "anat-041",
+      "categoryId": "sistem-osos",
+      "type": "single-choice",
+      "question": "Care este una dintre funcțiile curburilor coloanei vertebrale?",
+      "answers": [
+        {
+          "id": "anat-041-a1",
+          "text": "Amortizarea șocurilor primite în timpul mersului"
+        },
+        {
+          "id": "anat-041-a2",
+          "text": "Producerea lichidului sinovial"
+        },
+        {
+          "id": "anat-041-a3",
+          "text": "Contractarea mușchiului cardiac"
+        },
+        {
+          "id": "anat-041-a4",
+          "text": "Mineralizarea tendoanelor"
+        }
+      ],
+      "correctAnswerIds": [
+        "anat-041-a1"
+      ],
+      "explanation": "Curburile ajută la amortizarea șocurilor și la menținerea echilibrului.",
+      "image": null,
+      "difficulty": "medium",
+      "source": {
+        "document": "Manual Curs Instructor Fitness - Personal Trainer - Fitness Education School.pdf",
+        "page": 25
+      }
+    },
+    {
+      "id": "anat-042",
+      "categoryId": "sistem-osos",
+      "type": "single-choice",
+      "question": "Ce oase formează centura scapulară?",
+      "answers": [
+        {
+          "id": "anat-042-a1",
+          "text": "Clavicula și scapula"
+        },
+        {
+          "id": "anat-042-a2",
+          "text": "Radius și ulna"
+        },
+        {
+          "id": "anat-042-a3",
+          "text": "Tibia și fibula"
+        },
+        {
+          "id": "anat-042-a4",
+          "text": "Ilion și pubis"
+        }
+      ],
+      "correctAnswerIds": [
+        "anat-042-a1"
+      ],
+      "explanation": "Centura scapulară este formată din claviculă și scapulă.",
+      "image": null,
+      "difficulty": "easy",
+      "source": {
+        "document": "Manual Curs Instructor Fitness - Personal Trainer - Fitness Education School.pdf",
+        "page": 26
+      }
+    },
+    {
+      "id": "anat-043",
+      "categoryId": "sistem-osos",
+      "type": "single-choice",
+      "question": "Din ce os este alcătuit scheletul brațului?",
+      "answers": [
+        {
+          "id": "anat-043-a1",
+          "text": "Humerus"
+        },
+        {
+          "id": "anat-043-a2",
+          "text": "Radius"
+        },
+        {
+          "id": "anat-043-a3",
+          "text": "Ulna"
+        },
+        {
+          "id": "anat-043-a4",
+          "text": "Femur"
+        }
+      ],
+      "correctAnswerIds": [
+        "anat-043-a1"
+      ],
+      "explanation": "Humerusul este osul brațului.",
+      "image": null,
+      "difficulty": "easy",
+      "source": {
+        "document": "Manual Curs Instructor Fitness - Personal Trainer - Fitness Education School.pdf",
+        "page": 26
+      }
+    },
+    {
+      "id": "anat-044",
+      "categoryId": "sistem-osos",
+      "type": "multiple-choice",
+      "question": "Care oase alcătuiesc scheletul antebrațului?",
+      "answers": [
+        {
+          "id": "anat-044-a1",
+          "text": "Radius"
+        },
+        {
+          "id": "anat-044-a2",
+          "text": "Ulna (cubitus)"
+        },
+        {
+          "id": "anat-044-a3",
+          "text": "Humerus"
+        },
+        {
+          "id": "anat-044-a4",
+          "text": "Femur"
+        }
+      ],
+      "correctAnswerIds": [
+        "anat-044-a1",
+        "anat-044-a2"
+      ],
+      "explanation": "Antebrațul este format din radius și ulna (cubitus).",
+      "image": null,
+      "difficulty": "easy",
+      "source": {
+        "document": "Manual Curs Instructor Fitness - Personal Trainer - Fitness Education School.pdf",
+        "page": 26
+      }
+    },
+    {
+      "id": "anat-045",
+      "categoryId": "sistem-osos",
+      "type": "single-choice",
+      "question": "Din câte oase carpiene este alcătuit scheletul mâinii, potrivit manualului?",
+      "answers": [
+        {
+          "id": "anat-045-a1",
+          "text": "5"
+        },
+        {
+          "id": "anat-045-a2",
+          "text": "7"
+        },
+        {
+          "id": "anat-045-a3",
+          "text": "8"
+        },
+        {
+          "id": "anat-045-a4",
+          "text": "12"
+        }
+      ],
+      "correctAnswerIds": [
+        "anat-045-a3"
+      ],
+      "explanation": "Manualul indică opt oase carpiene dispuse pe două rânduri.",
+      "image": null,
+      "difficulty": "easy",
+      "source": {
+        "document": "Manual Curs Instructor Fitness - Personal Trainer - Fitness Education School.pdf",
+        "page": 26
+      }
+    },
+    {
+      "id": "anat-046",
+      "categoryId": "sistem-osos",
+      "type": "multiple-choice",
+      "question": "Din ce trei oase primitive provine osul coxal?",
+      "answers": [
+        {
+          "id": "anat-046-a1",
+          "text": "Ilion"
+        },
+        {
+          "id": "anat-046-a2",
+          "text": "Ischion"
+        },
+        {
+          "id": "anat-046-a3",
+          "text": "Pubis"
+        },
+        {
+          "id": "anat-046-a4",
+          "text": "Sacrum"
+        }
+      ],
+      "correctAnswerIds": [
+        "anat-046-a1",
+        "anat-046-a2",
+        "anat-046-a3"
+      ],
+      "explanation": "Osul coxal provine din sudarea ilionului, ischionului și pubisului.",
+      "image": null,
+      "difficulty": "medium",
+      "source": {
+        "document": "Manual Curs Instructor Fitness - Personal Trainer - Fitness Education School.pdf",
+        "page": 26
+      }
+    },
+    {
+      "id": "anat-047",
+      "categoryId": "sistem-osos",
+      "type": "single-choice",
+      "question": "Care este cel mai lung os din corp, potrivit manualului?",
+      "answers": [
+        {
+          "id": "anat-047-a1",
+          "text": "Humerus"
+        },
+        {
+          "id": "anat-047-a2",
+          "text": "Femur"
+        },
+        {
+          "id": "anat-047-a3",
+          "text": "Tibia"
+        },
+        {
+          "id": "anat-047-a4",
+          "text": "Radius"
+        }
+      ],
+      "correctAnswerIds": [
+        "anat-047-a2"
+      ],
+      "explanation": "Manualul numește femurul cel mai lung os din corp.",
+      "image": null,
+      "difficulty": "easy",
+      "source": {
+        "document": "Manual Curs Instructor Fitness - Personal Trainer - Fitness Education School.pdf",
+        "page": 27
+      }
+    },
+    {
+      "id": "anat-048",
+      "categoryId": "sistem-osos",
+      "type": "single-choice",
+      "question": "Câte oase tarsiene sunt menționate în manual?",
+      "answers": [
+        {
+          "id": "anat-048-a1",
+          "text": "5"
+        },
+        {
+          "id": "anat-048-a2",
+          "text": "7"
+        },
+        {
+          "id": "anat-048-a3",
+          "text": "8"
+        },
+        {
+          "id": "anat-048-a4",
+          "text": "14"
+        }
+      ],
+      "correctAnswerIds": [
+        "anat-048-a2"
+      ],
+      "explanation": "Manualul indică șapte oase tarsiene.",
+      "image": null,
+      "difficulty": "easy",
+      "source": {
+        "document": "Manual Curs Instructor Fitness - Personal Trainer - Fitness Education School.pdf",
+        "page": 27
+      }
+    },
+    {
+      "id": "anat-049",
+      "categoryId": "articulatii",
+      "type": "single-choice",
+      "question": "Cum sunt definite sinartrozele în manual?",
+      "answers": [
+        {
+          "id": "anat-049-a1",
+          "text": "Articulații cu mobilitate mare"
+        },
+        {
+          "id": "anat-049-a2",
+          "text": "Articulații în care nu este posibilă mobilitatea"
+        },
+        {
+          "id": "anat-049-a3",
+          "text": "Articulații care conțin întotdeauna lichid sinovial"
+        },
+        {
+          "id": "anat-049-a4",
+          "text": "Articulații formate doar din mușchi"
+        }
+      ],
+      "correctAnswerIds": [
+        "anat-049-a2"
+      ],
+      "explanation": "Sinartrozele nu permit mobilitatea și nu au cavitate articulară.",
+      "image": null,
+      "difficulty": "easy",
+      "source": {
+        "document": "Manual Curs Instructor Fitness - Personal Trainer - Fitness Education School.pdf",
+        "page": 27
+      }
+    },
+    {
+      "id": "anat-050",
+      "categoryId": "articulatii",
+      "type": "multiple-choice",
+      "question": "Care structuri sunt menționate în componența unei articulații mobile de tip artrodie?",
+      "answers": [
+        {
+          "id": "anat-050-a1",
+          "text": "Fețe articulare acoperite cu cartilaj"
+        },
+        {
+          "id": "anat-050-a2",
+          "text": "Capsulă articulară"
+        },
+        {
+          "id": "anat-050-a3",
+          "text": "Membrană sinovială"
+        },
+        {
+          "id": "anat-050-a4",
+          "text": "Lichid sinovial"
+        },
+        {
+          "id": "anat-050-a5",
+          "text": "Ligamente"
+        }
+      ],
+      "correctAnswerIds": [
+        "anat-050-a1",
+        "anat-050-a2",
+        "anat-050-a3",
+        "anat-050-a4",
+        "anat-050-a5"
+      ],
+      "explanation": "Manualul descrie cartilajul articular, capsula, membrana sinovială, sinovia și ligamentele.",
+      "image": null,
+      "difficulty": "medium",
+      "source": {
+        "document": "Manual Curs Instructor Fitness - Personal Trainer - Fitness Education School.pdf",
+        "page": 28
+      }
+    }
+  ]
+}
